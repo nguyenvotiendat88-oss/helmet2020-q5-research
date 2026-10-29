@@ -1,0 +1,3488 @@
+{
+  "baseline24": {
+    "0": {
+      "G": {
+        "metric": "frame_AP_all_points",
+        "iou": 0.5,
+        "small_min_side_lt": null,
+        "weight_basis": "evaluation",
+        "absent_class_policy": "exclude_from_mean_and_renormalize_weights",
+        "weighted_mAP": 0.7572693375809821,
+        "macro_mAP": 0.3054974414131372,
+        "classes": [
+          {
+            "class_id": 0,
+            "support": 4663,
+            "predictions_scored": 97822,
+            "ap": 0.6571062135065284
+          },
+          {
+            "class_id": 1,
+            "support": 9785,
+            "predictions_scored": 110114,
+            "ap": 0.809246002907184
+          },
+          {
+            "class_id": 2,
+            "support": 18489,
+            "predictions_scored": 701433,
+            "ap": 0.8875686785394665
+          },
+          {
+            "class_id": 3,
+            "support": 8271,
+            "predictions_scored": 360722,
+            "ap": 0.845818704591639
+          },
+          {
+            "class_id": 4,
+            "support": 2120,
+            "predictions_scored": 83417,
+            "ap": 0.3357768744188333
+          },
+          {
+            "class_id": 5,
+            "support": 124,
+            "predictions_scored": 719,
+            "ap": 0.013739824063421257
+          },
+          {
+            "class_id": 6,
+            "support": 416,
+            "predictions_scored": 2377,
+            "ap": 0.11369873081905957
+          },
+          {
+            "class_id": 7,
+            "support": 1350,
+            "predictions_scored": 5568,
+            "ap": 0.4088891705708927
+          },
+          {
+            "class_id": 8,
+            "support": 454,
+            "predictions_scored": 1339,
+            "ap": 0.08768245407180444
+          },
+          {
+            "class_id": 9,
+            "support": 745,
+            "predictions_scored": 16546,
+            "ap": 0.23760820128780835
+          },
+          {
+            "class_id": 10,
+            "support": 41,
+            "predictions_scored": 212,
+            "ap": 0.35091337785966165
+          },
+          {
+            "class_id": 11,
+            "support": 326,
+            "predictions_scored": 1014,
+            "ap": 0.06313820395047291
+          },
+          {
+            "class_id": 12,
+            "support": 75,
+            "predictions_scored": 605,
+            "ap": 0.21398452538435922
+          },
+          {
+            "class_id": 13,
+            "support": 46,
+            "predictions_scored": 601,
+            "ap": 0.015550556301629848
+          },
+          {
+            "class_id": 14,
+            "support": 17,
+            "predictions_scored": 110,
+            "ap": 0.6378433893828257
+          },
+          {
+            "class_id": 15,
+            "support": 43,
+            "predictions_scored": 1456,
+            "ap": 0.11080818157167166
+          },
+          {
+            "class_id": 16,
+            "support": 58,
+            "predictions_scored": 516,
+            "ap": 0.2573727932319478
+          },
+          {
+            "class_id": 17,
+            "support": 86,
+            "predictions_scored": 253,
+            "ap": 0.18017167801669948
+          },
+          {
+            "class_id": 18,
+            "support": 97,
+            "predictions_scored": 653,
+            "ap": 0.19237751292655317
+          },
+          {
+            "class_id": 19,
+            "support": 35,
+            "predictions_scored": 639,
+            "ap": 0.010920207561534438
+          },
+          {
+            "class_id": 20,
+            "support": 45,
+            "predictions_scored": 45,
+            "ap": 0.0
+          },
+          {
+            "class_id": 21,
+            "support": 97,
+            "predictions_scored": 190,
+            "ap": 0.0019938575622243555
+          },
+          {
+            "class_id": 22,
+            "support": 46,
+            "predictions_scored": 371,
+            "ap": 0.09532256511656005
+          },
+          {
+            "class_id": 23,
+            "support": 7,
+            "predictions_scored": 119,
+            "ap": 0.012987012987012986
+          },
+          {
+            "class_id": 24,
+            "support": 1,
+            "predictions_scored": 8,
+            "ap": 1.0
+          },
+          {
+            "class_id": 25,
+            "support": 150,
+            "predictions_scored": 229,
+            "ap": 0.2412347210741899
+          },
+          {
+            "class_id": 26,
+            "support": 12,
+            "predictions_scored": 91,
+            "ap": 0.49444444444444446
+          },
+          {
+            "class_id": 27,
+            "support": 19,
+            "predictions_scored": 13,
+            "ap": 0.1946532999164578
+          },
+          {
+            "class_id": 28,
+            "support": 0,
+            "predictions_scored": 9,
+            "ap": null
+          },
+          {
+            "class_id": 29,
+            "support": 37,
+            "predictions_scored": 83,
+            "ap": 0.10963186816845355
+          },
+          {
+            "class_id": 30,
+            "support": 17,
+            "predictions_scored": 62,
+            "ap": 0.5844401921607805
+          },
+          {
+            "class_id": 31,
+            "support": 0,
+            "predictions_scored": 33,
+            "ap": null
+          },
+          {
+            "class_id": 32,
+            "support": 0,
+            "predictions_scored": 43,
+            "ap": null
+          },
+          {
+            "class_id": 33,
+            "support": 0,
+            "predictions_scored": 1,
+            "ap": null
+          },
+          {
+            "class_id": 34,
+            "support": 0,
+            "predictions_scored": 40,
+            "ap": null
+          },
+          {
+            "class_id": 35,
+            "support": 0,
+            "predictions_scored": 5,
+            "ap": null
+          }
+        ],
+        "official_evaluator_parity_verified": false,
+        "frames": 14600,
+        "supported_classes": 30
+      },
+      "Q5": {
+        "metric": "frame_AP_all_points",
+        "iou": 0.5,
+        "small_min_side_lt": null,
+        "weight_basis": "evaluation",
+        "absent_class_policy": "exclude_from_mean_and_renormalize_weights",
+        "weighted_mAP": 0.7434195038437259,
+        "macro_mAP": 0.29899866664309876,
+        "classes": [
+          {
+            "class_id": 0,
+            "support": 4663,
+            "predictions_scored": 67948,
+            "ap": 0.6304645453790912
+          },
+          {
+            "class_id": 1,
+            "support": 9785,
+            "predictions_scored": 82492,
+            "ap": 0.787567494103961
+          },
+          {
+            "class_id": 2,
+            "support": 18489,
+            "predictions_scored": 638762,
+            "ap": 0.879854299323076
+          },
+          {
+            "class_id": 3,
+            "support": 8271,
+            "predictions_scored": 482274,
+            "ap": 0.8400852172397305
+          },
+          {
+            "class_id": 4,
+            "support": 2120,
+            "predictions_scored": 33798,
+            "ap": 0.333516368081498
+          },
+          {
+            "class_id": 5,
+            "support": 124,
+            "predictions_scored": 382,
+            "ap": 0.020033378367447396
+          },
+          {
+            "class_id": 6,
+            "support": 416,
+            "predictions_scored": 1488,
+            "ap": 0.1092168187920661
+          },
+          {
+            "class_id": 7,
+            "support": 1350,
+            "predictions_scored": 4220,
+            "ap": 0.3770502581829693
+          },
+          {
+            "class_id": 8,
+            "support": 454,
+            "predictions_scored": 1038,
+            "ap": 0.10021975578005408
+          },
+          {
+            "class_id": 9,
+            "support": 745,
+            "predictions_scored": 16650,
+            "ap": 0.10574631495625629
+          },
+          {
+            "class_id": 10,
+            "support": 41,
+            "predictions_scored": 160,
+            "ap": 0.28055515577283746
+          },
+          {
+            "class_id": 11,
+            "support": 326,
+            "predictions_scored": 1016,
+            "ap": 0.0661524396345102
+          },
+          {
+            "class_id": 12,
+            "support": 75,
+            "predictions_scored": 575,
+            "ap": 0.0668669727863383
+          },
+          {
+            "class_id": 13,
+            "support": 46,
+            "predictions_scored": 672,
+            "ap": 0.00016563146997929605
+          },
+          {
+            "class_id": 14,
+            "support": 17,
+            "predictions_scored": 66,
+            "ap": 0.6593203797356046
+          },
+          {
+            "class_id": 15,
+            "support": 43,
+            "predictions_scored": 855,
+            "ap": 0.08819545946120744
+          },
+          {
+            "class_id": 16,
+            "support": 58,
+            "predictions_scored": 252,
+            "ap": 0.3387067772330055
+          },
+          {
+            "class_id": 17,
+            "support": 86,
+            "predictions_scored": 138,
+            "ap": 0.2240521709334791
+          },
+          {
+            "class_id": 18,
+            "support": 97,
+            "predictions_scored": 402,
+            "ap": 0.33496394798109785
+          },
+          {
+            "class_id": 19,
+            "support": 35,
+            "predictions_scored": 294,
+            "ap": 0.0
+          },
+          {
+            "class_id": 20,
+            "support": 45,
+            "predictions_scored": 23,
+            "ap": 0.0
+          },
+          {
+            "class_id": 21,
+            "support": 97,
+            "predictions_scored": 166,
+            "ap": 0.0
+          },
+          {
+            "class_id": 22,
+            "support": 46,
+            "predictions_scored": 321,
+            "ap": 0.11394167019911133
+          },
+          {
+            "class_id": 23,
+            "support": 7,
+            "predictions_scored": 64,
+            "ap": 0.1716859716859717
+          },
+          {
+            "class_id": 24,
+            "support": 1,
+            "predictions_scored": 4,
+            "ap": 1.0
+          },
+          {
+            "class_id": 25,
+            "support": 150,
+            "predictions_scored": 177,
+            "ap": 0.2657146216755861
+          },
+          {
+            "class_id": 26,
+            "support": 12,
+            "predictions_scored": 51,
+            "ap": 0.4897563676633444
+          },
+          {
+            "class_id": 27,
+            "support": 19,
+            "predictions_scored": 5,
+            "ap": 0.0
+          },
+          {
+            "class_id": 28,
+            "support": 0,
+            "predictions_scored": 4,
+            "ap": null
+          },
+          {
+            "class_id": 29,
+            "support": 37,
+            "predictions_scored": 52,
+            "ap": 0.02546777546777547
+          },
+          {
+            "class_id": 30,
+            "support": 17,
+            "predictions_scored": 40,
+            "ap": 0.6606602073869626
+          },
+          {
+            "class_id": 31,
+            "support": 0,
+            "predictions_scored": 72,
+            "ap": null
+          },
+          {
+            "class_id": 32,
+            "support": 0,
+            "predictions_scored": 23,
+            "ap": null
+          },
+          {
+            "class_id": 33,
+            "support": 0,
+            "predictions_scored": 0,
+            "ap": null
+          },
+          {
+            "class_id": 34,
+            "support": 0,
+            "predictions_scored": 28,
+            "ap": null
+          },
+          {
+            "class_id": 35,
+            "support": 0,
+            "predictions_scored": 0,
+            "ap": null
+          }
+        ],
+        "official_evaluator_parity_verified": false,
+        "frames": 14600,
+        "supported_classes": 30
+      }
+    },
+    "1": {
+      "G": {
+        "metric": "frame_AP_all_points",
+        "iou": 0.5,
+        "small_min_side_lt": null,
+        "weight_basis": "evaluation",
+        "absent_class_policy": "exclude_from_mean_and_renormalize_weights",
+        "weighted_mAP": 0.756275115502709,
+        "macro_mAP": 0.27633864016158766,
+        "classes": [
+          {
+            "class_id": 0,
+            "support": 4663,
+            "predictions_scored": 68532,
+            "ap": 0.6756545376548128
+          },
+          {
+            "class_id": 1,
+            "support": 9785,
+            "predictions_scored": 80827,
+            "ap": 0.8076911190613676
+          },
+          {
+            "class_id": 2,
+            "support": 18489,
+            "predictions_scored": 682027,
+            "ap": 0.885793685953872
+          },
+          {
+            "class_id": 3,
+            "support": 8271,
+            "predictions_scored": 463036,
+            "ap": 0.8420217701500414
+          },
+          {
+            "class_id": 4,
+            "support": 2120,
+            "predictions_scored": 53780,
+            "ap": 0.33729815933021917
+          },
+          {
+            "class_id": 5,
+            "support": 124,
+            "predictions_scored": 715,
+            "ap": 0.04964542257665044
+          },
+          {
+            "class_id": 6,
+            "support": 416,
+            "predictions_scored": 2713,
+            "ap": 0.17479419913830618
+          },
+          {
+            "class_id": 7,
+            "support": 1350,
+            "predictions_scored": 6335,
+            "ap": 0.394188708410771
+          },
+          {
+            "class_id": 8,
+            "support": 454,
+            "predictions_scored": 1679,
+            "ap": 0.13407989783176263
+          },
+          {
+            "class_id": 9,
+            "support": 745,
+            "predictions_scored": 14524,
+            "ap": 0.17285569451387517
+          },
+          {
+            "class_id": 10,
+            "support": 41,
+            "predictions_scored": 233,
+            "ap": 0.35164800843046445
+          },
+          {
+            "class_id": 11,
+            "support": 326,
+            "predictions_scored": 1070,
+            "ap": 0.031053160222192653
+          },
+          {
+            "class_id": 12,
+            "support": 75,
+            "predictions_scored": 819,
+            "ap": 0.08370373503089469
+          },
+          {
+            "class_id": 13,
+            "support": 46,
+            "predictions_scored": 837,
+            "ap": 0.004432926361196622
+          },
+          {
+            "class_id": 14,
+            "support": 17,
+            "predictions_scored": 129,
+            "ap": 0.5489605764259744
+          },
+          {
+            "class_id": 15,
+            "support": 43,
+            "predictions_scored": 1853,
+            "ap": 0.061721900642758225
+          },
+          {
+            "class_id": 16,
+            "support": 58,
+            "predictions_scored": 593,
+            "ap": 0.2359162945399661
+          },
+          {
+            "class_id": 17,
+            "support": 86,
+            "predictions_scored": 265,
+            "ap": 0.2344903658395534
+          },
+          {
+            "class_id": 18,
+            "support": 97,
+            "predictions_scored": 614,
+            "ap": 0.14835529002691575
+          },
+          {
+            "class_id": 19,
+            "support": 35,
+            "predictions_scored": 816,
+            "ap": 0.004955112092629185
+          },
+          {
+            "class_id": 20,
+            "support": 45,
+            "predictions_scored": 21,
+            "ap": 0.0
+          },
+          {
+            "class_id": 21,
+            "support": 97,
+            "predictions_scored": 208,
+            "ap": 0.0028684870437447755
+          },
+          {
+            "class_id": 22,
+            "support": 46,
+            "predictions_scored": 478,
+            "ap": 0.2009138053314441
+          },
+          {
+            "class_id": 23,
+            "support": 7,
+            "predictions_scored": 109,
+            "ap": 0.05313852813852814
+          },
+          {
+            "class_id": 24,
+            "support": 1,
+            "predictions_scored": 8,
+            "ap": 1.0
+          },
+          {
+            "class_id": 25,
+            "support": 150,
+            "predictions_scored": 200,
+            "ap": 0.20842504807632842
+          },
+          {
+            "class_id": 26,
+            "support": 12,
+            "predictions_scored": 89,
+            "ap": 0.5685185185185185
+          },
+          {
+            "class_id": 27,
+            "support": 19,
+            "predictions_scored": 9,
+            "ap": 0.0
+          },
+          {
+            "class_id": 28,
+            "support": 0,
+            "predictions_scored": 4,
+            "ap": null
+          },
+          {
+            "class_id": 29,
+            "support": 37,
+            "predictions_scored": 47,
+            "ap": 0.002702702702702703
+          },
+          {
+            "class_id": 30,
+            "support": 17,
+            "predictions_scored": 33,
+            "ap": 0.07433155080213905
+          },
+          {
+            "class_id": 31,
+            "support": 0,
+            "predictions_scored": 20,
+            "ap": null
+          },
+          {
+            "class_id": 32,
+            "support": 0,
+            "predictions_scored": 28,
+            "ap": null
+          },
+          {
+            "class_id": 33,
+            "support": 0,
+            "predictions_scored": 0,
+            "ap": null
+          },
+          {
+            "class_id": 34,
+            "support": 0,
+            "predictions_scored": 55,
+            "ap": null
+          },
+          {
+            "class_id": 35,
+            "support": 0,
+            "predictions_scored": 1,
+            "ap": null
+          }
+        ],
+        "official_evaluator_parity_verified": false,
+        "frames": 14600,
+        "supported_classes": 30
+      },
+      "Q5": {
+        "metric": "frame_AP_all_points",
+        "iou": 0.5,
+        "small_min_side_lt": null,
+        "weight_basis": "evaluation",
+        "absent_class_policy": "exclude_from_mean_and_renormalize_weights",
+        "weighted_mAP": 0.7432410866579156,
+        "macro_mAP": 0.2648121533656014,
+        "classes": [
+          {
+            "class_id": 0,
+            "support": 4663,
+            "predictions_scored": 83940,
+            "ap": 0.6316199738629122
+          },
+          {
+            "class_id": 1,
+            "support": 9785,
+            "predictions_scored": 85752,
+            "ap": 0.7885277322444436
+          },
+          {
+            "class_id": 2,
+            "support": 18489,
+            "predictions_scored": 673349,
+            "ap": 0.8836299965753932
+          },
+          {
+            "class_id": 3,
+            "support": 8271,
+            "predictions_scored": 414432,
+            "ap": 0.8369577065121223
+          },
+          {
+            "class_id": 4,
+            "support": 2120,
+            "predictions_scored": 56737,
+            "ap": 0.30241039354293386
+          },
+          {
+            "class_id": 5,
+            "support": 124,
+            "predictions_scored": 572,
+            "ap": 0.006815312985153639
+          },
+          {
+            "class_id": 6,
+            "support": 416,
+            "predictions_scored": 1857,
+            "ap": 0.139668271524019
+          },
+          {
+            "class_id": 7,
+            "support": 1350,
+            "predictions_scored": 6427,
+            "ap": 0.3806483891127004
+          },
+          {
+            "class_id": 8,
+            "support": 454,
+            "predictions_scored": 1341,
+            "ap": 0.1144278459869672
+          },
+          {
+            "class_id": 9,
+            "support": 745,
+            "predictions_scored": 14409,
+            "ap": 0.16861498192551938
+          },
+          {
+            "class_id": 10,
+            "support": 41,
+            "predictions_scored": 172,
+            "ap": 0.3439695241524509
+          },
+          {
+            "class_id": 11,
+            "support": 326,
+            "predictions_scored": 1271,
+            "ap": 0.04025844051625961
+          },
+          {
+            "class_id": 12,
+            "support": 75,
+            "predictions_scored": 974,
+            "ap": 0.05893272634655569
+          },
+          {
+            "class_id": 13,
+            "support": 46,
+            "predictions_scored": 796,
+            "ap": 0.003982221320677934
+          },
+          {
+            "class_id": 14,
+            "support": 17,
+            "predictions_scored": 76,
+            "ap": 0.5836956946485631
+          },
+          {
+            "class_id": 15,
+            "support": 43,
+            "predictions_scored": 1183,
+            "ap": 0.059965030279677124
+          },
+          {
+            "class_id": 16,
+            "support": 58,
+            "predictions_scored": 529,
+            "ap": 0.30112724331750085
+          },
+          {
+            "class_id": 17,
+            "support": 86,
+            "predictions_scored": 174,
+            "ap": 0.1535073011481363
+          },
+          {
+            "class_id": 18,
+            "support": 97,
+            "predictions_scored": 368,
+            "ap": 0.10102408672282735
+          },
+          {
+            "class_id": 19,
+            "support": 35,
+            "predictions_scored": 495,
+            "ap": 0.00652101820085331
+          },
+          {
+            "class_id": 20,
+            "support": 45,
+            "predictions_scored": 27,
+            "ap": 0.0
+          },
+          {
+            "class_id": 21,
+            "support": 97,
+            "predictions_scored": 262,
+            "ap": 0.0005727376861397479
+          },
+          {
+            "class_id": 22,
+            "support": 46,
+            "predictions_scored": 370,
+            "ap": 0.05297683470335075
+          },
+          {
+            "class_id": 23,
+            "support": 7,
+            "predictions_scored": 76,
+            "ap": 0.0023809523809523807
+          },
+          {
+            "class_id": 24,
+            "support": 1,
+            "predictions_scored": 2,
+            "ap": 1.0
+          },
+          {
+            "class_id": 25,
+            "support": 150,
+            "predictions_scored": 215,
+            "ap": 0.12068349605537464
+          },
+          {
+            "class_id": 26,
+            "support": 12,
+            "predictions_scored": 46,
+            "ap": 0.6309523809523809
+          },
+          {
+            "class_id": 27,
+            "support": 19,
+            "predictions_scored": 2,
+            "ap": 0.0
+          },
+          {
+            "class_id": 28,
+            "support": 0,
+            "predictions_scored": 4,
+            "ap": null
+          },
+          {
+            "class_id": 29,
+            "support": 37,
+            "predictions_scored": 62,
+            "ap": 0.06303350109748798
+          },
+          {
+            "class_id": 30,
+            "support": 17,
+            "predictions_scored": 51,
+            "ap": 0.16746080716668954
+          },
+          {
+            "class_id": 31,
+            "support": 0,
+            "predictions_scored": 21,
+            "ap": null
+          },
+          {
+            "class_id": 32,
+            "support": 0,
+            "predictions_scored": 38,
+            "ap": null
+          },
+          {
+            "class_id": 33,
+            "support": 0,
+            "predictions_scored": 0,
+            "ap": null
+          },
+          {
+            "class_id": 34,
+            "support": 0,
+            "predictions_scored": 39,
+            "ap": null
+          },
+          {
+            "class_id": 35,
+            "support": 0,
+            "predictions_scored": 0,
+            "ap": null
+          }
+        ],
+        "official_evaluator_parity_verified": false,
+        "frames": 14600,
+        "supported_classes": 30
+      }
+    },
+    "2": {
+      "G": {
+        "metric": "frame_AP_all_points",
+        "iou": 0.5,
+        "small_min_side_lt": null,
+        "weight_basis": "evaluation",
+        "absent_class_policy": "exclude_from_mean_and_renormalize_weights",
+        "weighted_mAP": 0.7516528871524807,
+        "macro_mAP": 0.2740626409674546,
+        "classes": [
+          {
+            "class_id": 0,
+            "support": 4663,
+            "predictions_scored": 97820,
+            "ap": 0.6468651976844938
+          },
+          {
+            "class_id": 1,
+            "support": 9785,
+            "predictions_scored": 80751,
+            "ap": 0.8030284084656466
+          },
+          {
+            "class_id": 2,
+            "support": 18489,
+            "predictions_scored": 608648,
+            "ap": 0.884973528420949
+          },
+          {
+            "class_id": 3,
+            "support": 8271,
+            "predictions_scored": 495409,
+            "ap": 0.843654226162055
+          },
+          {
+            "class_id": 4,
+            "support": 2120,
+            "predictions_scored": 55261,
+            "ap": 0.34675176213127923
+          },
+          {
+            "class_id": 5,
+            "support": 124,
+            "predictions_scored": 978,
+            "ap": 0.038814408646899334
+          },
+          {
+            "class_id": 6,
+            "support": 416,
+            "predictions_scored": 6263,
+            "ap": 0.10959849960632717
+          },
+          {
+            "class_id": 7,
+            "support": 1350,
+            "predictions_scored": 12700,
+            "ap": 0.3759959319391154
+          },
+          {
+            "class_id": 8,
+            "support": 454,
+            "predictions_scored": 1879,
+            "ap": 0.07182433076474648
+          },
+          {
+            "class_id": 9,
+            "support": 745,
+            "predictions_scored": 17135,
+            "ap": 0.16991026922822558
+          },
+          {
+            "class_id": 10,
+            "support": 41,
+            "predictions_scored": 277,
+            "ap": 0.37484757267707597
+          },
+          {
+            "class_id": 11,
+            "support": 326,
+            "predictions_scored": 1531,
+            "ap": 0.0475989148699805
+          },
+          {
+            "class_id": 12,
+            "support": 75,
+            "predictions_scored": 1303,
+            "ap": 0.09678719583150691
+          },
+          {
+            "class_id": 13,
+            "support": 46,
+            "predictions_scored": 1424,
+            "ap": 0.00498954621872872
+          },
+          {
+            "class_id": 14,
+            "support": 17,
+            "predictions_scored": 234,
+            "ap": 0.7607221171982277
+          },
+          {
+            "class_id": 15,
+            "support": 43,
+            "predictions_scored": 1834,
+            "ap": 0.13016361805307847
+          },
+          {
+            "class_id": 16,
+            "support": 58,
+            "predictions_scored": 656,
+            "ap": 0.24488354913751775
+          },
+          {
+            "class_id": 17,
+            "support": 86,
+            "predictions_scored": 268,
+            "ap": 0.24241819746721072
+          },
+          {
+            "class_id": 18,
+            "support": 97,
+            "predictions_scored": 765,
+            "ap": 0.14634629605724658
+          },
+          {
+            "class_id": 19,
+            "support": 35,
+            "predictions_scored": 895,
+            "ap": 0.017380374522886766
+          },
+          {
+            "class_id": 20,
+            "support": 45,
+            "predictions_scored": 34,
+            "ap": 0.0
+          },
+          {
+            "class_id": 21,
+            "support": 97,
+            "predictions_scored": 210,
+            "ap": 0.0013678154408691204
+          },
+          {
+            "class_id": 22,
+            "support": 46,
+            "predictions_scored": 645,
+            "ap": 0.1437885041353387
+          },
+          {
+            "class_id": 23,
+            "support": 7,
+            "predictions_scored": 122,
+            "ap": 0.008658008658008658
+          },
+          {
+            "class_id": 24,
+            "support": 1,
+            "predictions_scored": 9,
+            "ap": 1.0
+          },
+          {
+            "class_id": 25,
+            "support": 150,
+            "predictions_scored": 268,
+            "ap": 0.30090398671216423
+          },
+          {
+            "class_id": 26,
+            "support": 12,
+            "predictions_scored": 177,
+            "ap": 0.1953012265512266
+          },
+          {
+            "class_id": 27,
+            "support": 19,
+            "predictions_scored": 10,
+            "ap": 0.06766917293233082
+          },
+          {
+            "class_id": 28,
+            "support": 0,
+            "predictions_scored": 2,
+            "ap": null
+          },
+          {
+            "class_id": 29,
+            "support": 37,
+            "predictions_scored": 55,
+            "ap": 0.028074111847696752
+          },
+          {
+            "class_id": 30,
+            "support": 17,
+            "predictions_scored": 30,
+            "ap": 0.11856245766280368
+          },
+          {
+            "class_id": 31,
+            "support": 0,
+            "predictions_scored": 45,
+            "ap": null
+          },
+          {
+            "class_id": 32,
+            "support": 0,
+            "predictions_scored": 32,
+            "ap": null
+          },
+          {
+            "class_id": 33,
+            "support": 0,
+            "predictions_scored": 1,
+            "ap": null
+          },
+          {
+            "class_id": 34,
+            "support": 0,
+            "predictions_scored": 84,
+            "ap": null
+          },
+          {
+            "class_id": 35,
+            "support": 0,
+            "predictions_scored": 0,
+            "ap": null
+          }
+        ],
+        "official_evaluator_parity_verified": false,
+        "frames": 14600,
+        "supported_classes": 30
+      },
+      "Q5": {
+        "metric": "frame_AP_all_points",
+        "iou": 0.5,
+        "small_min_side_lt": null,
+        "weight_basis": "evaluation",
+        "absent_class_policy": "exclude_from_mean_and_renormalize_weights",
+        "weighted_mAP": 0.7417385500399668,
+        "macro_mAP": 0.2742127703563121,
+        "classes": [
+          {
+            "class_id": 0,
+            "support": 4663,
+            "predictions_scored": 123683,
+            "ap": 0.6326498700547913
+          },
+          {
+            "class_id": 1,
+            "support": 9785,
+            "predictions_scored": 109972,
+            "ap": 0.7831586262768815
+          },
+          {
+            "class_id": 2,
+            "support": 18489,
+            "predictions_scored": 637477,
+            "ap": 0.8797002549609164
+          },
+          {
+            "class_id": 3,
+            "support": 8271,
+            "predictions_scored": 380309,
+            "ap": 0.8271944398195734
+          },
+          {
+            "class_id": 4,
+            "support": 2120,
+            "predictions_scored": 66076,
+            "ap": 0.3225261381661485
+          },
+          {
+            "class_id": 5,
+            "support": 124,
+            "predictions_scored": 541,
+            "ap": 0.016542787770675388
+          },
+          {
+            "class_id": 6,
+            "support": 416,
+            "predictions_scored": 2008,
+            "ap": 0.10204229924813228
+          },
+          {
+            "class_id": 7,
+            "support": 1350,
+            "predictions_scored": 6291,
+            "ap": 0.42824012840530173
+          },
+          {
+            "class_id": 8,
+            "support": 454,
+            "predictions_scored": 1564,
+            "ap": 0.09438033587574098
+          },
+          {
+            "class_id": 9,
+            "support": 745,
+            "predictions_scored": 17948,
+            "ap": 0.1855095794255284
+          },
+          {
+            "class_id": 10,
+            "support": 41,
+            "predictions_scored": 222,
+            "ap": 0.35277485806346465
+          },
+          {
+            "class_id": 11,
+            "support": 326,
+            "predictions_scored": 1456,
+            "ap": 0.03398244489266263
+          },
+          {
+            "class_id": 12,
+            "support": 75,
+            "predictions_scored": 1168,
+            "ap": 0.0008724143278704996
+          },
+          {
+            "class_id": 13,
+            "support": 46,
+            "predictions_scored": 606,
+            "ap": 0.0032498625111660006
+          },
+          {
+            "class_id": 14,
+            "support": 17,
+            "predictions_scored": 48,
+            "ap": 0.6527544351073762
+          },
+          {
+            "class_id": 15,
+            "support": 43,
+            "predictions_scored": 927,
+            "ap": 0.04879029892067291
+          },
+          {
+            "class_id": 16,
+            "support": 58,
+            "predictions_scored": 448,
+            "ap": 0.21979795609946998
+          },
+          {
+            "class_id": 17,
+            "support": 86,
+            "predictions_scored": 184,
+            "ap": 0.28101425203738517
+          },
+          {
+            "class_id": 18,
+            "support": 97,
+            "predictions_scored": 415,
+            "ap": 0.1570436183027478
+          },
+          {
+            "class_id": 19,
+            "support": 35,
+            "predictions_scored": 305,
+            "ap": 0.0007326007326007326
+          },
+          {
+            "class_id": 20,
+            "support": 45,
+            "predictions_scored": 9,
+            "ap": 0.005555555555555556
+          },
+          {
+            "class_id": 21,
+            "support": 97,
+            "predictions_scored": 247,
+            "ap": 9.634839579920993e-05
+          },
+          {
+            "class_id": 22,
+            "support": 46,
+            "predictions_scored": 492,
+            "ap": 0.12116148891928613
+          },
+          {
+            "class_id": 23,
+            "support": 7,
+            "predictions_scored": 72,
+            "ap": 0.013868003341687552
+          },
+          {
+            "class_id": 24,
+            "support": 1,
+            "predictions_scored": 3,
+            "ap": 1.0
+          },
+          {
+            "class_id": 25,
+            "support": 150,
+            "predictions_scored": 247,
+            "ap": 0.29096695511619564
+          },
+          {
+            "class_id": 26,
+            "support": 12,
+            "predictions_scored": 58,
+            "ap": 0.48055555555555557
+          },
+          {
+            "class_id": 27,
+            "support": 19,
+            "predictions_scored": 2,
+            "ap": 0.0
+          },
+          {
+            "class_id": 28,
+            "support": 0,
+            "predictions_scored": 0,
+            "ap": null
+          },
+          {
+            "class_id": 29,
+            "support": 37,
+            "predictions_scored": 68,
+            "ap": 0.027556968733439328
+          },
+          {
+            "class_id": 30,
+            "support": 17,
+            "predictions_scored": 46,
+            "ap": 0.26366503407273684
+          },
+          {
+            "class_id": 31,
+            "support": 0,
+            "predictions_scored": 96,
+            "ap": null
+          },
+          {
+            "class_id": 32,
+            "support": 0,
+            "predictions_scored": 27,
+            "ap": null
+          },
+          {
+            "class_id": 33,
+            "support": 0,
+            "predictions_scored": 1,
+            "ap": null
+          },
+          {
+            "class_id": 34,
+            "support": 0,
+            "predictions_scored": 70,
+            "ap": null
+          },
+          {
+            "class_id": 35,
+            "support": 0,
+            "predictions_scored": 0,
+            "ap": null
+          }
+        ],
+        "official_evaluator_parity_verified": false,
+        "frames": 14600,
+        "supported_classes": 30
+      }
+    }
+  },
+  "baseline4": {
+    "G": {
+      "metric": "frame_AP_all_points",
+      "iou": 0.5,
+      "small_min_side_lt": null,
+      "weight_basis": "evaluation",
+      "absent_class_policy": "exclude_from_mean_and_renormalize_weights",
+      "weighted_mAP": 0.7549873791708328,
+      "macro_mAP": 0.2886169487704878,
+      "classes": [
+        {
+          "class_id": 0,
+          "support": 4663,
+          "predictions_scored": 136173,
+          "ap": 0.655122614458694
+        },
+        {
+          "class_id": 1,
+          "support": 9785,
+          "predictions_scored": 121554,
+          "ap": 0.8144255994184518
+        },
+        {
+          "class_id": 2,
+          "support": 18489,
+          "predictions_scored": 502004,
+          "ap": 0.8850366226873846
+        },
+        {
+          "class_id": 3,
+          "support": 8271,
+          "predictions_scored": 447540,
+          "ap": 0.8332109428468222
+        },
+        {
+          "class_id": 4,
+          "support": 2120,
+          "predictions_scored": 109437,
+          "ap": 0.3277887266092706
+        },
+        {
+          "class_id": 5,
+          "support": 124,
+          "predictions_scored": 2259,
+          "ap": 0.023505476660868527
+        },
+        {
+          "class_id": 6,
+          "support": 416,
+          "predictions_scored": 9841,
+          "ap": 0.14853236119122806
+        },
+        {
+          "class_id": 7,
+          "support": 1350,
+          "predictions_scored": 16204,
+          "ap": 0.4563546913110779
+        },
+        {
+          "class_id": 8,
+          "support": 454,
+          "predictions_scored": 4439,
+          "ap": 0.07509620719194487
+        },
+        {
+          "class_id": 9,
+          "support": 745,
+          "predictions_scored": 34227,
+          "ap": 0.17171412001115954
+        },
+        {
+          "class_id": 10,
+          "support": 41,
+          "predictions_scored": 369,
+          "ap": 0.40298031520771677
+        },
+        {
+          "class_id": 11,
+          "support": 326,
+          "predictions_scored": 3398,
+          "ap": 0.08840516323792358
+        },
+        {
+          "class_id": 12,
+          "support": 75,
+          "predictions_scored": 4303,
+          "ap": 0.10866621999859497
+        },
+        {
+          "class_id": 13,
+          "support": 46,
+          "predictions_scored": 3623,
+          "ap": 0.01128343398328989
+        },
+        {
+          "class_id": 14,
+          "support": 17,
+          "predictions_scored": 411,
+          "ap": 0.2411839700858593
+        },
+        {
+          "class_id": 15,
+          "support": 43,
+          "predictions_scored": 5320,
+          "ap": 0.11099682723583633
+        },
+        {
+          "class_id": 16,
+          "support": 58,
+          "predictions_scored": 1372,
+          "ap": 0.22791021462135247
+        },
+        {
+          "class_id": 17,
+          "support": 86,
+          "predictions_scored": 630,
+          "ap": 0.21378342834994338
+        },
+        {
+          "class_id": 18,
+          "support": 97,
+          "predictions_scored": 1810,
+          "ap": 0.3000162846720231
+        },
+        {
+          "class_id": 19,
+          "support": 35,
+          "predictions_scored": 3586,
+          "ap": 0.027430511932290933
+        },
+        {
+          "class_id": 20,
+          "support": 45,
+          "predictions_scored": 460,
+          "ap": 0.0019357619658300334
+        },
+        {
+          "class_id": 21,
+          "support": 97,
+          "predictions_scored": 997,
+          "ap": 0.005059325492893033
+        },
+        {
+          "class_id": 22,
+          "support": 46,
+          "predictions_scored": 1530,
+          "ap": 0.02853493635148757
+        },
+        {
+          "class_id": 23,
+          "support": 7,
+          "predictions_scored": 218,
+          "ap": 0.01303344430992736
+        },
+        {
+          "class_id": 24,
+          "support": 1,
+          "predictions_scored": 81,
+          "ap": 1.0
+        },
+        {
+          "class_id": 25,
+          "support": 150,
+          "predictions_scored": 663,
+          "ap": 0.17169016574883877
+        },
+        {
+          "class_id": 26,
+          "support": 12,
+          "predictions_scored": 174,
+          "ap": 0.43278508771929824
+        },
+        {
+          "class_id": 27,
+          "support": 19,
+          "predictions_scored": 114,
+          "ap": 0.6942228823807771
+        },
+        {
+          "class_id": 28,
+          "support": 0,
+          "predictions_scored": 48,
+          "ap": null
+        },
+        {
+          "class_id": 29,
+          "support": 37,
+          "predictions_scored": 76,
+          "ap": 0.012993762993762994
+        },
+        {
+          "class_id": 30,
+          "support": 17,
+          "predictions_scored": 79,
+          "ap": 0.1748093644400866
+        },
+        {
+          "class_id": 31,
+          "support": 0,
+          "predictions_scored": 217,
+          "ap": null
+        },
+        {
+          "class_id": 32,
+          "support": 0,
+          "predictions_scored": 47,
+          "ap": null
+        },
+        {
+          "class_id": 33,
+          "support": 0,
+          "predictions_scored": 4,
+          "ap": null
+        },
+        {
+          "class_id": 34,
+          "support": 0,
+          "predictions_scored": 61,
+          "ap": null
+        },
+        {
+          "class_id": 35,
+          "support": 0,
+          "predictions_scored": 13,
+          "ap": null
+        }
+      ],
+      "official_evaluator_parity_verified": false,
+      "frames": 14600,
+      "supported_classes": 30
+    },
+    "Q5": {
+      "metric": "frame_AP_all_points",
+      "iou": 0.5,
+      "small_min_side_lt": null,
+      "weight_basis": "evaluation",
+      "absent_class_policy": "exclude_from_mean_and_renormalize_weights",
+      "weighted_mAP": 0.744616065683303,
+      "macro_mAP": 0.2602872272219337,
+      "classes": [
+        {
+          "class_id": 0,
+          "support": 4663,
+          "predictions_scored": 92760,
+          "ap": 0.6395838704922683
+        },
+        {
+          "class_id": 1,
+          "support": 9785,
+          "predictions_scored": 123068,
+          "ap": 0.7716546997074394
+        },
+        {
+          "class_id": 2,
+          "support": 18489,
+          "predictions_scored": 495862,
+          "ap": 0.8819308117135072
+        },
+        {
+          "class_id": 3,
+          "support": 8271,
+          "predictions_scored": 562437,
+          "ap": 0.8476068269110634
+        },
+        {
+          "class_id": 4,
+          "support": 2120,
+          "predictions_scored": 63140,
+          "ap": 0.31883220765893316
+        },
+        {
+          "class_id": 5,
+          "support": 124,
+          "predictions_scored": 1130,
+          "ap": 0.013967692558675127
+        },
+        {
+          "class_id": 6,
+          "support": 416,
+          "predictions_scored": 5098,
+          "ap": 0.1324882352202788
+        },
+        {
+          "class_id": 7,
+          "support": 1350,
+          "predictions_scored": 13467,
+          "ap": 0.4260935301681622
+        },
+        {
+          "class_id": 8,
+          "support": 454,
+          "predictions_scored": 4680,
+          "ap": 0.15336054787598408
+        },
+        {
+          "class_id": 9,
+          "support": 745,
+          "predictions_scored": 37900,
+          "ap": 0.12881360893027968
+        },
+        {
+          "class_id": 10,
+          "support": 41,
+          "predictions_scored": 517,
+          "ap": 0.30728005879711856
+        },
+        {
+          "class_id": 11,
+          "support": 326,
+          "predictions_scored": 1979,
+          "ap": 0.08709324399580361
+        },
+        {
+          "class_id": 12,
+          "support": 75,
+          "predictions_scored": 3453,
+          "ap": 0.0030171687036803633
+        },
+        {
+          "class_id": 13,
+          "support": 46,
+          "predictions_scored": 2555,
+          "ap": 0.0015733566977800847
+        },
+        {
+          "class_id": 14,
+          "support": 17,
+          "predictions_scored": 702,
+          "ap": 0.5422727711774366
+        },
+        {
+          "class_id": 15,
+          "support": 43,
+          "predictions_scored": 6058,
+          "ap": 0.015311613225357516
+        },
+        {
+          "class_id": 16,
+          "support": 58,
+          "predictions_scored": 1299,
+          "ap": 0.14909426845052004
+        },
+        {
+          "class_id": 17,
+          "support": 86,
+          "predictions_scored": 553,
+          "ap": 0.24743097499461494
+        },
+        {
+          "class_id": 18,
+          "support": 97,
+          "predictions_scored": 1151,
+          "ap": 0.302961493716831
+        },
+        {
+          "class_id": 19,
+          "support": 35,
+          "predictions_scored": 1794,
+          "ap": 0.00018250025347257427
+        },
+        {
+          "class_id": 20,
+          "support": 45,
+          "predictions_scored": 365,
+          "ap": 0.018708720044943606
+        },
+        {
+          "class_id": 21,
+          "support": 97,
+          "predictions_scored": 845,
+          "ap": 0.0007694758551455189
+        },
+        {
+          "class_id": 22,
+          "support": 46,
+          "predictions_scored": 2055,
+          "ap": 0.13112992464226084
+        },
+        {
+          "class_id": 23,
+          "support": 7,
+          "predictions_scored": 314,
+          "ap": 0.022733172339471554
+        },
+        {
+          "class_id": 24,
+          "support": 1,
+          "predictions_scored": 87,
+          "ap": 0.1111111111111111
+        },
+        {
+          "class_id": 25,
+          "support": 150,
+          "predictions_scored": 661,
+          "ap": 0.20640067862927045
+        },
+        {
+          "class_id": 26,
+          "support": 12,
+          "predictions_scored": 224,
+          "ap": 0.37250838179056
+        },
+        {
+          "class_id": 27,
+          "support": 19,
+          "predictions_scored": 116,
+          "ap": 0.3335630613044159
+        },
+        {
+          "class_id": 28,
+          "support": 0,
+          "predictions_scored": 85,
+          "ap": null
+        },
+        {
+          "class_id": 29,
+          "support": 37,
+          "predictions_scored": 219,
+          "ap": 0.1889550124611953
+        },
+        {
+          "class_id": 30,
+          "support": 17,
+          "predictions_scored": 193,
+          "ap": 0.45218779723043034
+        },
+        {
+          "class_id": 31,
+          "support": 0,
+          "predictions_scored": 276,
+          "ap": null
+        },
+        {
+          "class_id": 32,
+          "support": 0,
+          "predictions_scored": 142,
+          "ap": null
+        },
+        {
+          "class_id": 33,
+          "support": 0,
+          "predictions_scored": 33,
+          "ap": null
+        },
+        {
+          "class_id": 34,
+          "support": 0,
+          "predictions_scored": 186,
+          "ap": null
+        },
+        {
+          "class_id": 35,
+          "support": 0,
+          "predictions_scored": 37,
+          "ap": null
+        }
+      ],
+      "official_evaluator_parity_verified": false,
+      "frames": 14600,
+      "supported_classes": 30
+    }
+  },
+  "pilot4": {
+    "omit_constant_presence": {
+      "G": {
+        "metric": "frame_AP_all_points",
+        "iou": 0.5,
+        "small_min_side_lt": null,
+        "weight_basis": "evaluation",
+        "absent_class_policy": "exclude_from_mean_and_renormalize_weights",
+        "weighted_mAP": 0.7543681935183982,
+        "macro_mAP": 0.2593252300086481,
+        "classes": [
+          {
+            "class_id": 0,
+            "support": 4663,
+            "predictions_scored": 132981,
+            "ap": 0.6544094349276237
+          },
+          {
+            "class_id": 1,
+            "support": 9785,
+            "predictions_scored": 136860,
+            "ap": 0.8040342211947039
+          },
+          {
+            "class_id": 2,
+            "support": 18489,
+            "predictions_scored": 502078,
+            "ap": 0.888001531938286
+          },
+          {
+            "class_id": 3,
+            "support": 8271,
+            "predictions_scored": 396400,
+            "ap": 0.8424956572098545
+          },
+          {
+            "class_id": 4,
+            "support": 2120,
+            "predictions_scored": 131389,
+            "ap": 0.3183827947440275
+          },
+          {
+            "class_id": 5,
+            "support": 124,
+            "predictions_scored": 4472,
+            "ap": 0.010448358696202352
+          },
+          {
+            "class_id": 6,
+            "support": 416,
+            "predictions_scored": 12231,
+            "ap": 0.13489647975285768
+          },
+          {
+            "class_id": 7,
+            "support": 1350,
+            "predictions_scored": 19165,
+            "ap": 0.43513076273205215
+          },
+          {
+            "class_id": 8,
+            "support": 454,
+            "predictions_scored": 6637,
+            "ap": 0.10558515751225739
+          },
+          {
+            "class_id": 9,
+            "support": 745,
+            "predictions_scored": 31897,
+            "ap": 0.12367969872929774
+          },
+          {
+            "class_id": 10,
+            "support": 41,
+            "predictions_scored": 804,
+            "ap": 0.4197653290452731
+          },
+          {
+            "class_id": 11,
+            "support": 326,
+            "predictions_scored": 5930,
+            "ap": 0.13115234440266355
+          },
+          {
+            "class_id": 12,
+            "support": 75,
+            "predictions_scored": 6278,
+            "ap": 0.15752096269439
+          },
+          {
+            "class_id": 13,
+            "support": 46,
+            "predictions_scored": 6760,
+            "ap": 0.03225764641871616
+          },
+          {
+            "class_id": 14,
+            "support": 17,
+            "predictions_scored": 565,
+            "ap": 0.28627827813920265
+          },
+          {
+            "class_id": 15,
+            "support": 43,
+            "predictions_scored": 7299,
+            "ap": 0.07618431043470471
+          },
+          {
+            "class_id": 16,
+            "support": 58,
+            "predictions_scored": 2761,
+            "ap": 0.08061796202225432
+          },
+          {
+            "class_id": 17,
+            "support": 86,
+            "predictions_scored": 1343,
+            "ap": 0.2032630632312716
+          },
+          {
+            "class_id": 18,
+            "support": 97,
+            "predictions_scored": 3835,
+            "ap": 0.3906046576200166
+          },
+          {
+            "class_id": 19,
+            "support": 35,
+            "predictions_scored": 4014,
+            "ap": 0.027082362055719608
+          },
+          {
+            "class_id": 20,
+            "support": 45,
+            "predictions_scored": 472,
+            "ap": 0.000706713780918728
+          },
+          {
+            "class_id": 21,
+            "support": 97,
+            "predictions_scored": 1794,
+            "ap": 0.008155183304825208
+          },
+          {
+            "class_id": 22,
+            "support": 46,
+            "predictions_scored": 2540,
+            "ap": 0.11123907128317201
+          },
+          {
+            "class_id": 23,
+            "support": 7,
+            "predictions_scored": 437,
+            "ap": 0.001404001404001404
+          },
+          {
+            "class_id": 24,
+            "support": 1,
+            "predictions_scored": 104,
+            "ap": 0.045454545454545456
+          },
+          {
+            "class_id": 25,
+            "support": 150,
+            "predictions_scored": 1742,
+            "ap": 0.1537956002704458
+          },
+          {
+            "class_id": 26,
+            "support": 12,
+            "predictions_scored": 318,
+            "ap": 0.17017704517704518
+          },
+          {
+            "class_id": 27,
+            "support": 19,
+            "predictions_scored": 109,
+            "ap": 0.7156606090124097
+          },
+          {
+            "class_id": 28,
+            "support": 0,
+            "predictions_scored": 100,
+            "ap": null
+          },
+          {
+            "class_id": 29,
+            "support": 37,
+            "predictions_scored": 262,
+            "ap": 0.10239135703799296
+          },
+          {
+            "class_id": 30,
+            "support": 17,
+            "predictions_scored": 198,
+            "ap": 0.3489817600327122
+          },
+          {
+            "class_id": 31,
+            "support": 0,
+            "predictions_scored": 448,
+            "ap": null
+          },
+          {
+            "class_id": 32,
+            "support": 0,
+            "predictions_scored": 171,
+            "ap": null
+          },
+          {
+            "class_id": 33,
+            "support": 0,
+            "predictions_scored": 22,
+            "ap": null
+          },
+          {
+            "class_id": 34,
+            "support": 0,
+            "predictions_scored": 207,
+            "ap": null
+          },
+          {
+            "class_id": 35,
+            "support": 0,
+            "predictions_scored": 29,
+            "ap": null
+          }
+        ],
+        "official_evaluator_parity_verified": false,
+        "frames": 14600,
+        "supported_classes": 30
+      },
+      "Q5": {
+        "metric": "frame_AP_all_points",
+        "iou": 0.5,
+        "small_min_side_lt": null,
+        "weight_basis": "evaluation",
+        "absent_class_policy": "exclude_from_mean_and_renormalize_weights",
+        "weighted_mAP": 0.7423399810104236,
+        "macro_mAP": 0.2718650604308194,
+        "classes": [
+          {
+            "class_id": 0,
+            "support": 4663,
+            "predictions_scored": 69615,
+            "ap": 0.6402249917309051
+          },
+          {
+            "class_id": 1,
+            "support": 9785,
+            "predictions_scored": 92852,
+            "ap": 0.7878450642920228
+          },
+          {
+            "class_id": 2,
+            "support": 18489,
+            "predictions_scored": 626822,
+            "ap": 0.880765397488689
+          },
+          {
+            "class_id": 3,
+            "support": 8271,
+            "predictions_scored": 511907,
+            "ap": 0.8373642004076489
+          },
+          {
+            "class_id": 4,
+            "support": 2120,
+            "predictions_scored": 71569,
+            "ap": 0.3075111944672201
+          },
+          {
+            "class_id": 5,
+            "support": 124,
+            "predictions_scored": 983,
+            "ap": 0.021208880575144043
+          },
+          {
+            "class_id": 6,
+            "support": 416,
+            "predictions_scored": 5086,
+            "ap": 0.11500102460952215
+          },
+          {
+            "class_id": 7,
+            "support": 1350,
+            "predictions_scored": 9148,
+            "ap": 0.36252946108460227
+          },
+          {
+            "class_id": 8,
+            "support": 454,
+            "predictions_scored": 3795,
+            "ap": 0.11152741222587151
+          },
+          {
+            "class_id": 9,
+            "support": 745,
+            "predictions_scored": 16953,
+            "ap": 0.11074143112988982
+          },
+          {
+            "class_id": 10,
+            "support": 41,
+            "predictions_scored": 380,
+            "ap": 0.34207694663524435
+          },
+          {
+            "class_id": 11,
+            "support": 326,
+            "predictions_scored": 2203,
+            "ap": 0.08726336322048586
+          },
+          {
+            "class_id": 12,
+            "support": 75,
+            "predictions_scored": 1333,
+            "ap": 0.011344003425302139
+          },
+          {
+            "class_id": 13,
+            "support": 46,
+            "predictions_scored": 1102,
+            "ap": 0.0004035910472183264
+          },
+          {
+            "class_id": 14,
+            "support": 17,
+            "predictions_scored": 315,
+            "ap": 0.4042991109487273
+          },
+          {
+            "class_id": 15,
+            "support": 43,
+            "predictions_scored": 4094,
+            "ap": 0.033401711074212824
+          },
+          {
+            "class_id": 16,
+            "support": 58,
+            "predictions_scored": 1092,
+            "ap": 0.06462458269000546
+          },
+          {
+            "class_id": 17,
+            "support": 86,
+            "predictions_scored": 429,
+            "ap": 0.17750486944480678
+          },
+          {
+            "class_id": 18,
+            "support": 97,
+            "predictions_scored": 536,
+            "ap": 0.36583804192228053
+          },
+          {
+            "class_id": 19,
+            "support": 35,
+            "predictions_scored": 1828,
+            "ap": 0.00015898099371142697
+          },
+          {
+            "class_id": 20,
+            "support": 45,
+            "predictions_scored": 51,
+            "ap": 0.0
+          },
+          {
+            "class_id": 21,
+            "support": 97,
+            "predictions_scored": 439,
+            "ap": 0.002124408127068586
+          },
+          {
+            "class_id": 22,
+            "support": 46,
+            "predictions_scored": 1589,
+            "ap": 0.17821957054988316
+          },
+          {
+            "class_id": 23,
+            "support": 7,
+            "predictions_scored": 159,
+            "ap": 0.046052631578947366
+          },
+          {
+            "class_id": 24,
+            "support": 1,
+            "predictions_scored": 14,
+            "ap": 1.0
+          },
+          {
+            "class_id": 25,
+            "support": 150,
+            "predictions_scored": 405,
+            "ap": 0.15553497979998274
+          },
+          {
+            "class_id": 26,
+            "support": 12,
+            "predictions_scored": 128,
+            "ap": 0.24131375870506305
+          },
+          {
+            "class_id": 27,
+            "support": 19,
+            "predictions_scored": 18,
+            "ap": 0.16666666666666666
+          },
+          {
+            "class_id": 28,
+            "support": 0,
+            "predictions_scored": 28,
+            "ap": null
+          },
+          {
+            "class_id": 29,
+            "support": 37,
+            "predictions_scored": 151,
+            "ap": 0.09458808511357776
+          },
+          {
+            "class_id": 30,
+            "support": 17,
+            "predictions_scored": 123,
+            "ap": 0.6098174529698842
+          },
+          {
+            "class_id": 31,
+            "support": 0,
+            "predictions_scored": 172,
+            "ap": null
+          },
+          {
+            "class_id": 32,
+            "support": 0,
+            "predictions_scored": 79,
+            "ap": null
+          },
+          {
+            "class_id": 33,
+            "support": 0,
+            "predictions_scored": 7,
+            "ap": null
+          },
+          {
+            "class_id": 34,
+            "support": 0,
+            "predictions_scored": 219,
+            "ap": null
+          },
+          {
+            "class_id": 35,
+            "support": 0,
+            "predictions_scored": 5,
+            "ap": null
+          }
+        ],
+        "official_evaluator_parity_verified": false,
+        "frames": 14600,
+        "supported_classes": 30
+      }
+    },
+    "valid_state_conditional": {
+      "G": {
+        "metric": "frame_AP_all_points",
+        "iou": 0.5,
+        "small_min_side_lt": null,
+        "weight_basis": "evaluation",
+        "absent_class_policy": "exclude_from_mean_and_renormalize_weights",
+        "weighted_mAP": 0.7554051061871275,
+        "macro_mAP": 0.2603932787922031,
+        "classes": [
+          {
+            "class_id": 0,
+            "support": 4663,
+            "predictions_scored": 94962,
+            "ap": 0.6538920240841672
+          },
+          {
+            "class_id": 1,
+            "support": 9785,
+            "predictions_scored": 120338,
+            "ap": 0.8190250239663636
+          },
+          {
+            "class_id": 2,
+            "support": 18489,
+            "predictions_scored": 546318,
+            "ap": 0.8874267487637081
+          },
+          {
+            "class_id": 3,
+            "support": 8271,
+            "predictions_scored": 431893,
+            "ap": 0.8321565808888883
+          },
+          {
+            "class_id": 4,
+            "support": 2120,
+            "predictions_scored": 94892,
+            "ap": 0.3362508987382197
+          },
+          {
+            "class_id": 5,
+            "support": 124,
+            "predictions_scored": 1664,
+            "ap": 0.027048321130637248
+          },
+          {
+            "class_id": 6,
+            "support": 416,
+            "predictions_scored": 8966,
+            "ap": 0.1510409538595598
+          },
+          {
+            "class_id": 7,
+            "support": 1350,
+            "predictions_scored": 17546,
+            "ap": 0.44005850786904765
+          },
+          {
+            "class_id": 8,
+            "support": 454,
+            "predictions_scored": 5100,
+            "ap": 0.05601245615276169
+          },
+          {
+            "class_id": 9,
+            "support": 745,
+            "predictions_scored": 35733,
+            "ap": 0.1044107058819295
+          },
+          {
+            "class_id": 10,
+            "support": 41,
+            "predictions_scored": 366,
+            "ap": 0.4183192542287535
+          },
+          {
+            "class_id": 11,
+            "support": 326,
+            "predictions_scored": 3285,
+            "ap": 0.11735465309273826
+          },
+          {
+            "class_id": 12,
+            "support": 75,
+            "predictions_scored": 3200,
+            "ap": 0.038646388012112294
+          },
+          {
+            "class_id": 13,
+            "support": 46,
+            "predictions_scored": 3342,
+            "ap": 0.007167008983952863
+          },
+          {
+            "class_id": 14,
+            "support": 17,
+            "predictions_scored": 749,
+            "ap": 0.811050138446183
+          },
+          {
+            "class_id": 15,
+            "support": 43,
+            "predictions_scored": 7993,
+            "ap": 0.2041306966031069
+          },
+          {
+            "class_id": 16,
+            "support": 58,
+            "predictions_scored": 1787,
+            "ap": 0.09679802789121598
+          },
+          {
+            "class_id": 17,
+            "support": 86,
+            "predictions_scored": 448,
+            "ap": 0.22470926775516797
+          },
+          {
+            "class_id": 18,
+            "support": 97,
+            "predictions_scored": 1473,
+            "ap": 0.2271008268971279
+          },
+          {
+            "class_id": 19,
+            "support": 35,
+            "predictions_scored": 5030,
+            "ap": 0.1658802714163768
+          },
+          {
+            "class_id": 20,
+            "support": 45,
+            "predictions_scored": 523,
+            "ap": 0.0
+          },
+          {
+            "class_id": 21,
+            "support": 97,
+            "predictions_scored": 5370,
+            "ap": 0.0051688815776325244
+          },
+          {
+            "class_id": 22,
+            "support": 46,
+            "predictions_scored": 1864,
+            "ap": 0.03798517110918221
+          },
+          {
+            "class_id": 23,
+            "support": 7,
+            "predictions_scored": 260,
+            "ap": 0.017055048969942588
+          },
+          {
+            "class_id": 24,
+            "support": 1,
+            "predictions_scored": 1126,
+            "ap": 0.14285714285714285
+          },
+          {
+            "class_id": 25,
+            "support": 150,
+            "predictions_scored": 1784,
+            "ap": 0.21532822872996504
+          },
+          {
+            "class_id": 26,
+            "support": 12,
+            "predictions_scored": 405,
+            "ap": 0.2074032738095238
+          },
+          {
+            "class_id": 27,
+            "support": 19,
+            "predictions_scored": 161,
+            "ap": 0.09469312712194507
+          },
+          {
+            "class_id": 28,
+            "support": 0,
+            "predictions_scored": 69,
+            "ap": null
+          },
+          {
+            "class_id": 29,
+            "support": 37,
+            "predictions_scored": 228,
+            "ap": 0.028378974163188065
+          },
+          {
+            "class_id": 30,
+            "support": 17,
+            "predictions_scored": 260,
+            "ap": 0.44444976076555026
+          },
+          {
+            "class_id": 31,
+            "support": 0,
+            "predictions_scored": 2857,
+            "ap": null
+          },
+          {
+            "class_id": 32,
+            "support": 0,
+            "predictions_scored": 179,
+            "ap": null
+          },
+          {
+            "class_id": 33,
+            "support": 0,
+            "predictions_scored": 98,
+            "ap": null
+          },
+          {
+            "class_id": 34,
+            "support": 0,
+            "predictions_scored": 88,
+            "ap": null
+          },
+          {
+            "class_id": 35,
+            "support": 0,
+            "predictions_scored": 8,
+            "ap": null
+          }
+        ],
+        "official_evaluator_parity_verified": false,
+        "frames": 14600,
+        "supported_classes": 30
+      },
+      "Q5": {
+        "metric": "frame_AP_all_points",
+        "iou": 0.5,
+        "small_min_side_lt": null,
+        "weight_basis": "evaluation",
+        "absent_class_policy": "exclude_from_mean_and_renormalize_weights",
+        "weighted_mAP": 0.7440317700226821,
+        "macro_mAP": 0.2802668835983789,
+        "classes": [
+          {
+            "class_id": 0,
+            "support": 4663,
+            "predictions_scored": 71180,
+            "ap": 0.6372178723596897
+          },
+          {
+            "class_id": 1,
+            "support": 9785,
+            "predictions_scored": 96519,
+            "ap": 0.7796492368365353
+          },
+          {
+            "class_id": 2,
+            "support": 18489,
+            "predictions_scored": 589877,
+            "ap": 0.8854275531039
+          },
+          {
+            "class_id": 3,
+            "support": 8271,
+            "predictions_scored": 510928,
+            "ap": 0.8479971612691688
+          },
+          {
+            "class_id": 4,
+            "support": 2120,
+            "predictions_scored": 69763,
+            "ap": 0.31070642407654725
+          },
+          {
+            "class_id": 5,
+            "support": 124,
+            "predictions_scored": 788,
+            "ap": 0.029200971791064918
+          },
+          {
+            "class_id": 6,
+            "support": 416,
+            "predictions_scored": 8716,
+            "ap": 0.12286845841587486
+          },
+          {
+            "class_id": 7,
+            "support": 1350,
+            "predictions_scored": 15639,
+            "ap": 0.359623315479079
+          },
+          {
+            "class_id": 8,
+            "support": 454,
+            "predictions_scored": 4915,
+            "ap": 0.10951923254148471
+          },
+          {
+            "class_id": 9,
+            "support": 745,
+            "predictions_scored": 23348,
+            "ap": 0.11605463342966636
+          },
+          {
+            "class_id": 10,
+            "support": 41,
+            "predictions_scored": 192,
+            "ap": 0.371190628147359
+          },
+          {
+            "class_id": 11,
+            "support": 326,
+            "predictions_scored": 926,
+            "ap": 0.05227138910736019
+          },
+          {
+            "class_id": 12,
+            "support": 75,
+            "predictions_scored": 1066,
+            "ap": 0.004500496380373012
+          },
+          {
+            "class_id": 13,
+            "support": 46,
+            "predictions_scored": 918,
+            "ap": 0.0002893151407127838
+          },
+          {
+            "class_id": 14,
+            "support": 17,
+            "predictions_scored": 276,
+            "ap": 0.2288689030704766
+          },
+          {
+            "class_id": 15,
+            "support": 43,
+            "predictions_scored": 4493,
+            "ap": 0.12363718227275261
+          },
+          {
+            "class_id": 16,
+            "support": 58,
+            "predictions_scored": 678,
+            "ap": 0.37679796515086095
+          },
+          {
+            "class_id": 17,
+            "support": 86,
+            "predictions_scored": 310,
+            "ap": 0.04807188192272719
+          },
+          {
+            "class_id": 18,
+            "support": 97,
+            "predictions_scored": 597,
+            "ap": 0.22097831702993312
+          },
+          {
+            "class_id": 19,
+            "support": 35,
+            "predictions_scored": 4001,
+            "ap": 0.0016523040657095735
+          },
+          {
+            "class_id": 20,
+            "support": 45,
+            "predictions_scored": 511,
+            "ap": 0.0004535147392290249
+          },
+          {
+            "class_id": 21,
+            "support": 97,
+            "predictions_scored": 628,
+            "ap": 0.0020436369274196226
+          },
+          {
+            "class_id": 22,
+            "support": 46,
+            "predictions_scored": 1689,
+            "ap": 0.08041262304702906
+          },
+          {
+            "class_id": 23,
+            "support": 7,
+            "predictions_scored": 93,
+            "ap": 0.11016483516483516
+          },
+          {
+            "class_id": 24,
+            "support": 1,
+            "predictions_scored": 603,
+            "ap": 1.0
+          },
+          {
+            "class_id": 25,
+            "support": 150,
+            "predictions_scored": 410,
+            "ap": 0.19181073154088082
+          },
+          {
+            "class_id": 26,
+            "support": 12,
+            "predictions_scored": 98,
+            "ap": 0.3833233368321088
+          },
+          {
+            "class_id": 27,
+            "support": 19,
+            "predictions_scored": 138,
+            "ap": 0.03020355147503647
+          },
+          {
+            "class_id": 28,
+            "support": 0,
+            "predictions_scored": 18,
+            "ap": null
+          },
+          {
+            "class_id": 29,
+            "support": 37,
+            "predictions_scored": 109,
+            "ap": 0.20313526922314157
+          },
+          {
+            "class_id": 30,
+            "support": 17,
+            "predictions_scored": 158,
+            "ap": 0.7799357674104124
+          },
+          {
+            "class_id": 31,
+            "support": 0,
+            "predictions_scored": 344,
+            "ap": null
+          },
+          {
+            "class_id": 32,
+            "support": 0,
+            "predictions_scored": 45,
+            "ap": null
+          },
+          {
+            "class_id": 33,
+            "support": 0,
+            "predictions_scored": 27,
+            "ap": null
+          },
+          {
+            "class_id": 34,
+            "support": 0,
+            "predictions_scored": 61,
+            "ap": null
+          },
+          {
+            "class_id": 35,
+            "support": 0,
+            "predictions_scored": 5,
+            "ap": null
+          }
+        ],
+        "official_evaluator_parity_verified": false,
+        "frames": 14600,
+        "supported_classes": 30
+      }
+    }
+  },
+  "counts": {
+    "train": {
+      "0": {
+        "objects": 17822,
+        "clips": 283
+      },
+      "1": {
+        "objects": 36026,
+        "clips": 400
+      },
+      "2": {
+        "objects": 72972,
+        "clips": 509
+      },
+      "3": {
+        "objects": 31573,
+        "clips": 350
+      },
+      "4": {
+        "objects": 8112,
+        "clips": 204
+      },
+      "5": {
+        "objects": 491,
+        "clips": 20
+      },
+      "6": {
+        "objects": 1364,
+        "clips": 38
+      },
+      "7": {
+        "objects": 3794,
+        "clips": 77
+      },
+      "8": {
+        "objects": 1963,
+        "clips": 64
+      },
+      "9": {
+        "objects": 1983,
+        "clips": 75
+      },
+      "10": {
+        "objects": 405,
+        "clips": 13
+      },
+      "11": {
+        "objects": 743,
+        "clips": 28
+      },
+      "12": {
+        "objects": 588,
+        "clips": 20
+      },
+      "13": {
+        "objects": 543,
+        "clips": 21
+      },
+      "14": {
+        "objects": 60,
+        "clips": 2
+      },
+      "15": {
+        "objects": 404,
+        "clips": 14
+      },
+      "16": {
+        "objects": 577,
+        "clips": 19
+      },
+      "17": {
+        "objects": 94,
+        "clips": 7
+      },
+      "18": {
+        "objects": 557,
+        "clips": 26
+      },
+      "19": {
+        "objects": 85,
+        "clips": 4
+      },
+      "20": {
+        "objects": 234,
+        "clips": 5
+      },
+      "21": {
+        "objects": 177,
+        "clips": 9
+      },
+      "22": {
+        "objects": 150,
+        "clips": 7
+      },
+      "23": {
+        "objects": 39,
+        "clips": 2
+      },
+      "24": {
+        "objects": 45,
+        "clips": 4
+      },
+      "25": {
+        "objects": 276,
+        "clips": 11
+      },
+      "26": {
+        "objects": 11,
+        "clips": 1
+      },
+      "27": {
+        "objects": 24,
+        "clips": 2
+      },
+      "28": {
+        "objects": 10,
+        "clips": 1
+      },
+      "29": {
+        "objects": 21,
+        "clips": 2
+      },
+      "30": {
+        "objects": 5,
+        "clips": 1
+      },
+      "31": {
+        "objects": 28,
+        "clips": 1
+      },
+      "32": {
+        "objects": 0,
+        "clips": 0
+      },
+      "33": {
+        "objects": 0,
+        "clips": 0
+      },
+      "34": {
+        "objects": 0,
+        "clips": 0
+      },
+      "35": {
+        "objects": 0,
+        "clips": 0
+      }
+    },
+    "val": {
+      "0": {
+        "objects": 4663,
+        "clips": 66
+      },
+      "1": {
+        "objects": 9785,
+        "clips": 105
+      },
+      "2": {
+        "objects": 18489,
+        "clips": 129
+      },
+      "3": {
+        "objects": 8271,
+        "clips": 82
+      },
+      "4": {
+        "objects": 2120,
+        "clips": 53
+      },
+      "5": {
+        "objects": 124,
+        "clips": 4
+      },
+      "6": {
+        "objects": 416,
+        "clips": 12
+      },
+      "7": {
+        "objects": 1350,
+        "clips": 23
+      },
+      "8": {
+        "objects": 454,
+        "clips": 13
+      },
+      "9": {
+        "objects": 745,
+        "clips": 18
+      },
+      "10": {
+        "objects": 41,
+        "clips": 3
+      },
+      "11": {
+        "objects": 326,
+        "clips": 7
+      },
+      "12": {
+        "objects": 75,
+        "clips": 3
+      },
+      "13": {
+        "objects": 46,
+        "clips": 2
+      },
+      "14": {
+        "objects": 17,
+        "clips": 1
+      },
+      "15": {
+        "objects": 43,
+        "clips": 3
+      },
+      "16": {
+        "objects": 58,
+        "clips": 3
+      },
+      "17": {
+        "objects": 86,
+        "clips": 3
+      },
+      "18": {
+        "objects": 97,
+        "clips": 4
+      },
+      "19": {
+        "objects": 35,
+        "clips": 2
+      },
+      "20": {
+        "objects": 45,
+        "clips": 1
+      },
+      "21": {
+        "objects": 97,
+        "clips": 2
+      },
+      "22": {
+        "objects": 46,
+        "clips": 2
+      },
+      "23": {
+        "objects": 7,
+        "clips": 1
+      },
+      "24": {
+        "objects": 1,
+        "clips": 1
+      },
+      "25": {
+        "objects": 150,
+        "clips": 5
+      },
+      "26": {
+        "objects": 12,
+        "clips": 1
+      },
+      "27": {
+        "objects": 19,
+        "clips": 1
+      },
+      "28": {
+        "objects": 0,
+        "clips": 0
+      },
+      "29": {
+        "objects": 37,
+        "clips": 1
+      },
+      "30": {
+        "objects": 17,
+        "clips": 1
+      },
+      "31": {
+        "objects": 0,
+        "clips": 0
+      },
+      "32": {
+        "objects": 0,
+        "clips": 0
+      },
+      "33": {
+        "objects": 0,
+        "clips": 0
+      },
+      "34": {
+        "objects": 0,
+        "clips": 0
+      },
+      "35": {
+        "objects": 0,
+        "clips": 0
+      }
+    }
+  },
+  "labels": {
+    "source": "https://osf.io/download/8gtfs/; F-measure/36_class.csv",
+    "positions": [
+      "D",
+      "P1",
+      "P2",
+      "P3",
+      "P0"
+    ],
+    "state_names": [
+      "absent",
+      "helmet",
+      "no_helmet"
+    ],
+    "classes": [
+      {
+        "id": 0,
+        "name": "DNoHelmetP1NoHelmet",
+        "states": [
+          2,
+          2,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 1,
+        "name": "DHelmetP1Helmet",
+        "states": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 2,
+        "name": "DHelmet",
+        "states": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 3,
+        "name": "DNoHelmet",
+        "states": [
+          2,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 4,
+        "name": "DHelmetP1NoHelmet",
+        "states": [
+          1,
+          2,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 5,
+        "name": "DHelmetP0NoHelmetP1NoHelmet",
+        "states": [
+          1,
+          2,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "id": 6,
+        "name": "DHelmetP1NoHelmetP2NoHelmet",
+        "states": [
+          1,
+          2,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 7,
+        "name": "DNoHelmetP1NoHelmetP2NoHelmet",
+        "states": [
+          2,
+          2,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 8,
+        "name": "DHelmetP1NoHelmetP2Helmet",
+        "states": [
+          1,
+          2,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 9,
+        "name": "DNoHelmetP1Helmet",
+        "states": [
+          2,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 10,
+        "name": "DHelmetP0NoHelmetP1NoHelmetP2Helmet",
+        "states": [
+          1,
+          2,
+          1,
+          0,
+          2
+        ]
+      },
+      {
+        "id": 11,
+        "name": "DNoHelmetP0NoHelmetP1NoHelmet",
+        "states": [
+          2,
+          2,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "id": 12,
+        "name": "DNoHelmetP0NoHelmet",
+        "states": [
+          2,
+          0,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "id": 13,
+        "name": "DHelmetP0NoHelmet",
+        "states": [
+          1,
+          0,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "id": 14,
+        "name": "DNoHelmetP1HelmetP2Helmet",
+        "states": [
+          2,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 15,
+        "name": "DHelmetP1HelmetP2Helmet",
+        "states": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 16,
+        "name": "DNoHelmetP0NoHelmetP1NoHelmetP2NoHelmet",
+        "states": [
+          2,
+          2,
+          2,
+          0,
+          2
+        ]
+      },
+      {
+        "id": 17,
+        "name": "DHelmetP0NoHelmetP1NoHelmetP2NoHelmet",
+        "states": [
+          1,
+          2,
+          2,
+          0,
+          2
+        ]
+      },
+      {
+        "id": 18,
+        "name": "DHelmetP0NoHelmetP1Helmet",
+        "states": [
+          1,
+          1,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "id": 19,
+        "name": "DHelmetP1HelmetP2NoHelmet",
+        "states": [
+          1,
+          1,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 20,
+        "name": "DNoHelmetP1NoHelmetP2NoHelmetP3NoHelmet",
+        "states": [
+          2,
+          2,
+          2,
+          2,
+          0
+        ]
+      },
+      {
+        "id": 21,
+        "name": "DHelmetP0Helmet",
+        "states": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 22,
+        "name": "DNoHelmetP1NoHelmetP2Helmet",
+        "states": [
+          2,
+          2,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 23,
+        "name": "DHelmetP0NoHelmetP1HelmetP2Helmet",
+        "states": [
+          1,
+          1,
+          1,
+          0,
+          2
+        ]
+      },
+      {
+        "id": 24,
+        "name": "DHelmetP1NoHelmetP2NoHelmetP3Helmet",
+        "states": [
+          1,
+          2,
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "id": 25,
+        "name": "DHelmetP0HelmetP1Helmet",
+        "states": [
+          1,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 26,
+        "name": "DNoHelmetP0NoHelmetP1Helmet",
+        "states": [
+          2,
+          1,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "id": 27,
+        "name": "DHelmetP1NoHelmetP2NoHelmetP3NoHelmet",
+        "states": [
+          1,
+          2,
+          2,
+          2,
+          0
+        ]
+      },
+      {
+        "id": 28,
+        "name": "DNoHelmetP0NoHelmetP1NoHelmetP2NoHelmetP3NoHelmet",
+        "states": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "id": 29,
+        "name": "DHelmetP0HelmetP1NoHelmetP2Helmet",
+        "states": [
+          1,
+          2,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 30,
+        "name": "DHelmetP0HelmetP1NoHelmetP2NoHelmet",
+        "states": [
+          1,
+          2,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 31,
+        "name": "DNoHelmetP0HelmetP1NoHelmet",
+        "states": [
+          2,
+          2,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 32,
+        "name": "DHelmetP0HelmetP1HelmetP2Helmet",
+        "states": [
+          1,
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 33,
+        "name": "DHelmetP0NoHelmetP1NoHelmetP2NoHelmetP3Helmet",
+        "states": [
+          1,
+          2,
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "id": 34,
+        "name": "DNoHelmetP0NoHelmetP1NoHelmetP2Helmet",
+        "states": [
+          2,
+          2,
+          1,
+          0,
+          2
+        ]
+      },
+      {
+        "id": 35,
+        "name": "DHelmetP0NoHelmetP1NoHelmetP2NoHelmetP3NoHelmet",
+        "states": [
+          1,
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    ]
+  },
+  "metric_hashes_passed": true,
+  "metric_hash_checks": 10,
+  "test_accessed": false
+}

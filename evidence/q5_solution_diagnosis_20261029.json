@@ -1,0 +1,389 @@
+{
+  "scope": "posthoc_development_class_sensitivity; primary_metric_unchanged",
+  "rows": [
+    {
+      "id": 0,
+      "name": "DNoHelmetP1NoHelmet",
+      "support": 4663,
+      "clip_support": 66,
+      "delta_by_seed_pp": [
+        -2.664166812743718,
+        -4.403456379190052,
+        -1.4215327629702457
+      ],
+      "mean_delta_pp": -2.8297186516346717
+    },
+    {
+      "id": 1,
+      "name": "DHelmetP1Helmet",
+      "support": 9785,
+      "clip_support": 105,
+      "delta_by_seed_pp": [
+        -2.1678508803222973,
+        -1.9163386816923977,
+        -1.9869782188765117
+      ],
+      "mean_delta_pp": -2.0237225936304024
+    },
+    {
+      "id": 2,
+      "name": "DHelmet",
+      "support": 18489,
+      "clip_support": 129,
+      "delta_by_seed_pp": [
+        -0.771437921639051,
+        -0.21636893784787725,
+        -0.527327346003259
+      ],
+      "mean_delta_pp": -0.5050447351633958
+    },
+    {
+      "id": 3,
+      "name": "DNoHelmet",
+      "support": 8271,
+      "clip_support": 82,
+      "delta_by_seed_pp": [
+        -0.5733487351908484,
+        -0.5064063637919114,
+        -1.6459786342481575
+      ],
+      "mean_delta_pp": -0.9085779110769724
+    },
+    {
+      "id": 4,
+      "name": "DHelmetP1NoHelmet",
+      "support": 2120,
+      "clip_support": 53,
+      "delta_by_seed_pp": [
+        -0.22605063373353218,
+        -3.4887765787285305,
+        -2.4225623965130727
+      ],
+      "mean_delta_pp": -2.045796536325045
+    },
+    {
+      "id": 5,
+      "name": "DHelmetP0NoHelmetP1NoHelmet",
+      "support": 124,
+      "clip_support": 4,
+      "delta_by_seed_pp": [
+        0.6293554304026139,
+        -4.28301095914968,
+        -2.2271620876223945
+      ],
+      "mean_delta_pp": -1.96027253878982
+    },
+    {
+      "id": 6,
+      "name": "DHelmetP1NoHelmetP2NoHelmet",
+      "support": 416,
+      "clip_support": 12,
+      "delta_by_seed_pp": [
+        -0.44819120269934676,
+        -3.512592761428718,
+        -0.7556200358194889
+      ],
+      "mean_delta_pp": -1.5721346666491844
+    },
+    {
+      "id": 7,
+      "name": "DNoHelmetP1NoHelmetP2NoHelmet",
+      "support": 1350,
+      "clip_support": 23,
+      "delta_by_seed_pp": [
+        -3.1838912387923415,
+        -1.3540319298070647,
+        5.2244196466186335
+      ],
+      "mean_delta_pp": 0.22883215933974244
+    },
+    {
+      "id": 8,
+      "name": "DHelmetP1NoHelmetP2Helmet",
+      "support": 454,
+      "clip_support": 13,
+      "delta_by_seed_pp": [
+        1.253730170824964,
+        -1.9652051844795433,
+        2.2556005110994497
+      ],
+      "mean_delta_pp": 0.5147084991482901
+    },
+    {
+      "id": 9,
+      "name": "DNoHelmetP1Helmet",
+      "support": 745,
+      "clip_support": 18,
+      "delta_by_seed_pp": [
+        -13.186188633155204,
+        -0.42407125883557883,
+        1.5599310197302818
+      ],
+      "mean_delta_pp": -4.0167762907535005
+    },
+    {
+      "id": 10,
+      "name": "DHelmetP0NoHelmetP1NoHelmetP2Helmet",
+      "support": 41,
+      "clip_support": 3,
+      "delta_by_seed_pp": [
+        -7.0358222086824185,
+        -0.7678484278013542,
+        -2.207271461361132
+      ],
+      "mean_delta_pp": -3.336980699281635
+    },
+    {
+      "id": 11,
+      "name": "DNoHelmetP0NoHelmetP1NoHelmet",
+      "support": 326,
+      "clip_support": 7,
+      "delta_by_seed_pp": [
+        0.3014235684037289,
+        0.9205280294066958,
+        -1.361646997731787
+      ],
+      "mean_delta_pp": -0.04656513330712081
+    },
+    {
+      "id": 12,
+      "name": "DNoHelmetP0NoHelmet",
+      "support": 75,
+      "clip_support": 3,
+      "delta_by_seed_pp": [
+        -14.711755259802093,
+        -2.4771008684339,
+        -9.591478150363642
+      ],
+      "mean_delta_pp": -8.926778092866545
+    },
+    {
+      "id": 13,
+      "name": "DHelmetP0NoHelmet",
+      "support": 46,
+      "clip_support": 2,
+      "delta_by_seed_pp": [
+        -1.5384924831650553,
+        -0.045070504051868826,
+        -0.17396837075627195
+      ],
+      "mean_delta_pp": -0.5858437859910653
+    },
+    {
+      "id": 14,
+      "name": "DNoHelmetP1HelmetP2Helmet",
+      "support": 17,
+      "clip_support": 1,
+      "delta_by_seed_pp": [
+        2.1476990352778946,
+        3.473511822258868,
+        -10.796768209085151
+      ],
+      "mean_delta_pp": -1.7251857838494629
+    },
+    {
+      "id": 15,
+      "name": "DHelmetP1HelmetP2Helmet",
+      "support": 43,
+      "clip_support": 3,
+      "delta_by_seed_pp": [
+        -2.261272211046422,
+        -0.17568703630811006,
+        -8.137331913240557
+      ],
+      "mean_delta_pp": -3.524763720198363
+    },
+    {
+      "id": 16,
+      "name": "DNoHelmetP0NoHelmetP1NoHelmetP2NoHelmet",
+      "support": 58,
+      "clip_support": 3,
+      "delta_by_seed_pp": [
+        8.133398400105774,
+        6.521094877753475,
+        -2.5085593038047778
+      ],
+      "mean_delta_pp": 4.048644658018157
+    },
+    {
+      "id": 17,
+      "name": "DHelmetP0NoHelmetP1NoHelmetP2NoHelmet",
+      "support": 86,
+      "clip_support": 3,
+      "delta_by_seed_pp": [
+        4.388049291677961,
+        -8.098306469141711,
+        3.8596054570174454
+      ],
+      "mean_delta_pp": 0.04978275985123185
+    },
+    {
+      "id": 18,
+      "name": "DHelmetP0NoHelmetP1Helmet",
+      "support": 97,
+      "clip_support": 4,
+      "delta_by_seed_pp": [
+        14.258643505454469,
+        -4.733120330408839,
+        1.0697322245501213
+      ],
+      "mean_delta_pp": 3.5317517998652503
+    },
+    {
+      "id": 19,
+      "name": "DHelmetP1HelmetP2NoHelmet",
+      "support": 35,
+      "clip_support": 2,
+      "delta_by_seed_pp": [
+        -1.0920207561534439,
+        0.15659061082241246,
+        -1.6647773790286031
+      ],
+      "mean_delta_pp": -0.8667358414532115
+    },
+    {
+      "id": 20,
+      "name": "DNoHelmetP1NoHelmetP2NoHelmetP3NoHelmet",
+      "support": 45,
+      "clip_support": 1,
+      "delta_by_seed_pp": [
+        0.0,
+        0.0,
+        0.5555555555555556
+      ],
+      "mean_delta_pp": 0.1851851851851852
+    },
+    {
+      "id": 21,
+      "name": "DHelmetP0Helmet",
+      "support": 97,
+      "clip_support": 2,
+      "delta_by_seed_pp": [
+        -0.19938575622243554,
+        -0.22957493576050278,
+        -0.12714670450699106
+      ],
+      "mean_delta_pp": -0.1853691321633098
+    },
+    {
+      "id": 22,
+      "name": "DNoHelmetP1NoHelmetP2Helmet",
+      "support": 46,
+      "clip_support": 2,
+      "delta_by_seed_pp": [
+        1.8619105082551282,
+        -14.793697062809336,
+        -2.2627015216052566
+      ],
+      "mean_delta_pp": -5.064829358719821
+    },
+    {
+      "id": 23,
+      "name": "DHelmetP0NoHelmetP1HelmetP2Helmet",
+      "support": 7,
+      "clip_support": 1,
+      "delta_by_seed_pp": [
+        15.86989586989587,
+        -5.075757575757576,
+        0.5209994683678894
+      ],
+      "mean_delta_pp": 3.771712587502061
+    },
+    {
+      "id": 24,
+      "name": "DHelmetP1NoHelmetP2NoHelmetP3Helmet",
+      "support": 1,
+      "clip_support": 1,
+      "delta_by_seed_pp": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_delta_pp": 0.0
+    },
+    {
+      "id": 25,
+      "name": "DHelmetP0HelmetP1Helmet",
+      "support": 150,
+      "clip_support": 5,
+      "delta_by_seed_pp": [
+        2.447990060139624,
+        -8.774155202095377,
+        -0.9937031595968593
+      ],
+      "mean_delta_pp": -2.4399561005175374
+    },
+    {
+      "id": 26,
+      "name": "DNoHelmetP0NoHelmetP1Helmet",
+      "support": 12,
+      "clip_support": 1,
+      "delta_by_seed_pp": [
+        -0.4688076781100059,
+        6.24338624338624,
+        28.5254329004329
+      ],
+      "mean_delta_pp": 11.433337155236378
+    },
+    {
+      "id": 27,
+      "name": "DHelmetP1NoHelmetP2NoHelmetP3NoHelmet",
+      "support": 19,
+      "clip_support": 1,
+      "delta_by_seed_pp": [
+        -19.46532999164578,
+        0.0,
+        -6.7669172932330826
+      ],
+      "mean_delta_pp": -8.744082428292955
+    },
+    {
+      "id": 29,
+      "name": "DHelmetP0HelmetP1NoHelmetP2Helmet",
+      "support": 37,
+      "clip_support": 1,
+      "delta_by_seed_pp": [
+        -8.416409270067808,
+        6.033079839478528,
+        -0.05171431142574241
+      ],
+      "mean_delta_pp": -0.8116812473383407
+    },
+    {
+      "id": 30,
+      "name": "DHelmetP0HelmetP1NoHelmetP2NoHelmet",
+      "support": 17,
+      "clip_support": 1,
+      "delta_by_seed_pp": [
+        7.622001522618216,
+        9.312925636455049,
+        14.510257640993315
+      ],
+      "mean_delta_pp": 10.48172826668886
+    }
+  ],
+  "pilot_singleton_contributions": {
+    "omit_constant_presence": {
+      "headline_macro_delta_pp": 1.1577833208885724,
+      "singleton": [
+        {
+          "class_id": 24,
+          "support": 1,
+          "contribution_macro_pp": 2.962962962962963
+        }
+      ],
+      "other_classes_total_contribution_pp": -1.8051796420743904
+    },
+    "valid_state_conditional": {
+      "headline_macro_delta_pp": 1.997965637644522,
+      "singleton": [
+        {
+          "class_id": 24,
+          "support": 1,
+          "contribution_macro_pp": 2.962962962962963
+        }
+      ],
+      "other_classes_total_contribution_pp": -0.9649973253184407
+    }
+  }
+}

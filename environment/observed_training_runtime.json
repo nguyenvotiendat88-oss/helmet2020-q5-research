@@ -1,0 +1,13 @@
+{
+  "versions": {
+    "torch": "2.8.0+cu128",
+    "torchvision": "0.23.0+cu128",
+    "numpy": "2.2.6",
+    "Pillow": "11.3.0",
+    "PyYAML": "6.0.3"
+  },
+  "python": "3.12.15",
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "cuda": "12.8"
+}

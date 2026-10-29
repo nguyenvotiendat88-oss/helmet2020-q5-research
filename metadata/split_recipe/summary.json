@@ -1,0 +1,112 @@
+{
+  "original_to_new_frames": {
+    "train": {
+      "train": 50500,
+      "val": 13100
+    },
+    "val": {
+      "train": 7700,
+      "val": 1500
+    }
+  },
+  "overlap_clip_tracks": 0,
+  "overlap_clips": 0,
+  "overlap_images": 0,
+  "shared_sites": [
+    "Bago_highway",
+    "Bago_rural",
+    "Bago_urban",
+    "Mandalay_1",
+    "Mandalay_2",
+    "Naypyitaw_1",
+    "Naypyitaw_2",
+    "NyaungU_rural",
+    "NyaungU_urban",
+    "Pakokku_urban",
+    "Pathein_rural",
+    "Yangon_II"
+  ],
+  "source_row_bytes_unchanged": true,
+  "splits": {
+    "train": {
+      "clips": 582,
+      "empty_frames": 6266,
+      "frames": 58200,
+      "objects": 181176,
+      "supported_classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "tracks": 6571
+    },
+    "val": {
+      "clips": 146,
+      "empty_frames": 1649,
+      "frames": 14600,
+      "objects": 47672,
+      "supported_classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        29,
+        30
+      ],
+      "tracks": 1647
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "checked_utc": "2026-10-29T16:25:44.795292+00:00",
+  "status": {
+    "state": "running",
+    "pid": 55892,
+    "seed": 0,
+    "arm": "G",
+    "seed_progress_path": "/workspace/runs/longtail3_20261029/seed0/progress.json",
+    "time_utc": "2026-10-29T16:25:15.621899+00:00"
+  },
+  "seed0_progress": {
+    "kind": "arm_started",
+    "time_utc": "2026-10-29T16:25:17.276254+00:00",
+    "method": "G",
+    "completed_epochs": 0,
+    "planned_epochs": 12
+  },
+  "verification": {
+    "status": "passed",
+    "dataset_training_started": false,
+    "GPU_used": false,
+    "test_accessed": false,
+    "checks": [
+      "train_and_eval_loops_AST_identical",
+      "gamma0_exact_BCE",
+      "positive_presence_and_conditional_helmet_gradients_unchanged",
+      "absent_helmet_gradient_zero",
+      "asymmetric_formula_and_finite_difference",
+      "easy_negative_suppression_extreme_logits_finite",
+      "all3seed_baseline_artifacts_verified",
+      "all6_initial_model_hashes_paired",
+      "original_kit_and_native_loss_not_modified",
+      "AdamW_resume_same_next_update",
+      "augmentation_paired_and_seed_sensitive"
+    ],
+    "paired_initialization_hashes": {
+      "G_seed0": "9908e163eba9c2a6740022a368bca4f2c5bb19c6eb6fc7499ab3185977c08dfb",
+      "Q5_seed0": "746d5f29b0e48263737b204597f2297ddb98c3cd46a6101e5beb1b6d62cfa962",
+      "G_seed1": "1980dd984692d5058e1b2fe6f4f567554fffcbd03867b8415103731b635b0c9c",
+      "Q5_seed1": "fdd0604523705cbe5946bb55a9358c7a1e1c5faae826f054fc77c0d2e8662037",
+      "G_seed2": "2de5495c8ba1b520816df51adb7243c2224e3afd2fa147013055a5fd43aa8484",
+      "Q5_seed2": "c78d5e88f198e31393afc129a212c15c88d83dec687dae9bd3f99752b3133023"
+    }
+  },
+  "sources": {
+    "engine.py": "c4f5825f7021a93b68fec7217c596ad8743966eb80188984be88d551ff745910",
+    "fast_eval.py": "534879f3dd136b8cddd4ed00096ac817b02795fd911e6e0c426fcb624374fe7f",
+    "presence_asl.py": "1adae8684d6af49f9c2bc61daaaa5eda429fcfde5061b2e5da7e2a0c330e0b6e",
+    "run_longtail.py": "491eb9c405299fa8795b91c97c2fed847441ab87895c7c30d3c3cdbd89d47aac",
+    "test_longtail.py": "428d0c1a63752555ae10ab82f2fafd593f7d5a2c4bc7b5bc1308d6c339191257"
+  }
+}

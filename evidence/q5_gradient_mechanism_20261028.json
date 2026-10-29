@@ -1,0 +1,2230 @@
+{
+  "schema": "helmet2020.query_gradient_diagnostic.v1",
+  "device": "cpu",
+  "sample": "8 batches with one TRAIN crop per supported class per batch; replacement allowed",
+  "sample_weights": "class TRAIN frequency; weighted estimator of original training objective",
+  "sample_indices": [
+    [
+      45312,
+      4064,
+      79124,
+      43216,
+      21459,
+      110822,
+      152679,
+      10725,
+      23855,
+      111017,
+      30843,
+      24072,
+      146873,
+      90002,
+      15389,
+      70776,
+      92285,
+      24297,
+      76799,
+      53008,
+      61326,
+      98175,
+      169160,
+      169770,
+      90105,
+      80473,
+      67297,
+      92192,
+      80450,
+      79094,
+      66590,
+      95509
+    ],
+    [
+      80832,
+      162921,
+      48091,
+      179537,
+      11553,
+      61684,
+      129832,
+      148982,
+      41341,
+      140038,
+      2713,
+      87183,
+      50873,
+      46904,
+      15383,
+      70725,
+      173040,
+      88038,
+      169343,
+      52937,
+      61411,
+      69303,
+      169127,
+      101104,
+      89160,
+      64855,
+      67278,
+      93895,
+      80468,
+      63774,
+      66585,
+      95514
+    ],
+    [
+      153924,
+      98317,
+      65820,
+      174379,
+      61278,
+      77329,
+      67384,
+      147949,
+      63462,
+      79331,
+      83768,
+      70661,
+      129785,
+      89970,
+      15391,
+      70729,
+      167582,
+      66623,
+      52509,
+      66981,
+      130048,
+      94384,
+      151962,
+      100987,
+      92409,
+      64944,
+      67274,
+      92209,
+      80458,
+      79089,
+      66588,
+      95628
+    ],
+    [
+      75624,
+      167922,
+      5175,
+      143458,
+      121476,
+      25871,
+      38522,
+      83894,
+      33089,
+      180786,
+      89064,
+      138658,
+      50939,
+      92415,
+      15488,
+      79350,
+      69997,
+      80471,
+      76935,
+      52951,
+      61319,
+      94362,
+      152039,
+      101088,
+      92409,
+      75911,
+      67267,
+      93895,
+      80477,
+      63779,
+      66588,
+      95514
+    ],
+    [
+      158078,
+      43511,
+      57783,
+      148455,
+      162704,
+      64812,
+      180210,
+      80231,
+      158205,
+      79721,
+      170107,
+      120761,
+      33356,
+      85213,
+      15434,
+      53609,
+      70242,
+      24222,
+      52406,
+      53115,
+      127984,
+      108672,
+      180471,
+      101037,
+      89165,
+      76016,
+      67278,
+      92200,
+      80468,
+      79129,
+      66588,
+      95541
+    ],
+    [
+      63708,
+      55513,
+      126126,
+      130902,
+      173189,
+      138014,
+      52637,
+      110899,
+      70501,
+      94545,
+      169563,
+      95694,
+      143257,
+      130237,
+      15476,
+      27423,
+      167336,
+      67130,
+      52502,
+      53074,
+      56261,
+      108723,
+      180525,
+      101037,
+      90088,
+      82405,
+      67285,
+      93862,
+      80450,
+      79084,
+      66585,
+      95469
+    ],
+    [
+      134120,
+      33168,
+      63974,
+      123662,
+      155203,
+      176413,
+      180313,
+      26146,
+      75581,
+      124740,
+      89167,
+      61361,
+      139701,
+      129990,
+      15418,
+      50597,
+      91540,
+      24198,
+      89817,
+      53160,
+      173348,
+      98175,
+      170333,
+      101058,
+      92416,
+      66002,
+      67306,
+      92181,
+      80458,
+      79079,
+      66579,
+      95574
+    ],
+    [
+      144936,
+      126196,
+      177313,
+      2799,
+      124001,
+      63726,
+      158436,
+      73268,
+      158177,
+      4246,
+      89209,
+      115513,
+      6129,
+      46622,
+      15414,
+      15057,
+      70058,
+      88006,
+      71269,
+      152346,
+      173363,
+      106988,
+      180471,
+      169770,
+      92394,
+      80587,
+      67270,
+      92164,
+      80454,
+      79079,
+      66582,
+      95469
+    ]
+  ],
+  "checkpoint_epochs": [
+    4,
+    12,
+    24
+  ],
+  "roles": [
+    "D",
+    "P1",
+    "P2",
+    "P3",
+    "P0"
+  ],
+  "augmentation": false,
+  "model_mode": "eval; frozen BatchNorm running statistics",
+  "parameter_scope": "only each role query vector; not shared backbone/attention matrix gradients",
+  "test_accessed": false,
+  "val_accessed": false,
+  "optimizer_updates": 0,
+  "observations": [
+    {
+      "epoch": 4,
+      "batch": 0,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 0.0004127476713620126,
+        "presence_negative": 0.0,
+        "helmet_conditional": 0.00028288699104450643
+      },
+      "cos_presence_vs_helmet": -0.023133734241127968,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 4,
+      "batch": 0,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 0.00046942924382165074,
+        "presence_negative": 0.0003245999978389591,
+        "helmet_conditional": 0.00039650461985729635
+      },
+      "cos_presence_vs_helmet": -0.7271469831466675,
+      "cos_negative_presence_vs_helmet": -0.44136181473731995,
+      "negative_to_helmet_norm": 0.8186537623405457
+    },
+    {
+      "epoch": 4,
+      "batch": 0,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 9.630835120333359e-05,
+        "presence_negative": 0.0014350845012813807,
+        "helmet_conditional": 0.00019393724505789578
+      },
+      "cos_presence_vs_helmet": 0.03339686989784241,
+      "cos_negative_presence_vs_helmet": 0.048458024859428406,
+      "negative_to_helmet_norm": 7.399736404418945
+    },
+    {
+      "epoch": 4,
+      "batch": 0,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 1.1471779544081073e-05,
+        "presence_negative": 0.00013379212759900838,
+        "helmet_conditional": 9.410636266693473e-05
+      },
+      "cos_presence_vs_helmet": 0.3968832492828369,
+      "cos_negative_presence_vs_helmet": 0.3576730489730835,
+      "negative_to_helmet_norm": 1.421711802482605
+    },
+    {
+      "epoch": 4,
+      "batch": 0,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 0.00012771927868016064,
+        "presence_negative": 0.00228008977137506,
+        "helmet_conditional": 0.0011178074637427926
+      },
+      "cos_presence_vs_helmet": 0.2303636521100998,
+      "cos_negative_presence_vs_helmet": 0.1888042390346527,
+      "negative_to_helmet_norm": 2.039787530899048
+    },
+    {
+      "epoch": 4,
+      "batch": 1,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 0.0001718898129183799,
+        "presence_negative": 0.0,
+        "helmet_conditional": 0.018682800233364105
+      },
+      "cos_presence_vs_helmet": -0.21213357150554657,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 4,
+      "batch": 1,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 0.00011559229460544884,
+        "presence_negative": 0.0021534457337111235,
+        "helmet_conditional": 0.005721320863813162
+      },
+      "cos_presence_vs_helmet": 0.47899752855300903,
+      "cos_negative_presence_vs_helmet": 0.4514777660369873,
+      "negative_to_helmet_norm": 0.37638962268829346
+    },
+    {
+      "epoch": 4,
+      "batch": 1,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 0.00018793577328324318,
+        "presence_negative": 0.001491471310146153,
+        "helmet_conditional": 0.00015593403077218682
+      },
+      "cos_presence_vs_helmet": 0.7655182480812073,
+      "cos_negative_presence_vs_helmet": 0.7803033590316772,
+      "negative_to_helmet_norm": 9.56475830078125
+    },
+    {
+      "epoch": 4,
+      "batch": 1,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 1.9889210307155736e-05,
+        "presence_negative": 0.00023099410464055836,
+        "helmet_conditional": 0.0001189223476103507
+      },
+      "cos_presence_vs_helmet": 0.25317737460136414,
+      "cos_negative_presence_vs_helmet": 0.2453068345785141,
+      "negative_to_helmet_norm": 1.9423943758010864
+    },
+    {
+      "epoch": 4,
+      "batch": 1,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 5.0935199396917596e-05,
+        "presence_negative": 0.00019719953706953675,
+        "helmet_conditional": 6.469387153629214e-05
+      },
+      "cos_presence_vs_helmet": 0.4717477858066559,
+      "cos_negative_presence_vs_helmet": 0.5877812504768372,
+      "negative_to_helmet_norm": 3.0481951236724854
+    },
+    {
+      "epoch": 4,
+      "batch": 2,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 0.0008847906137816608,
+        "presence_negative": 0.0,
+        "helmet_conditional": 0.0008140104473568499
+      },
+      "cos_presence_vs_helmet": 0.5388901829719543,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 4,
+      "batch": 2,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 0.014671734534204006,
+        "presence_negative": 0.00025492539862170815,
+        "helmet_conditional": 0.0017496078507974744
+      },
+      "cos_presence_vs_helmet": -0.7252263426780701,
+      "cos_negative_presence_vs_helmet": 0.39136838912963867,
+      "negative_to_helmet_norm": 0.14570429921150208
+    },
+    {
+      "epoch": 4,
+      "batch": 2,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 0.0016317866975441575,
+        "presence_negative": 0.00027928806957788765,
+        "helmet_conditional": 0.00016697797400411218
+      },
+      "cos_presence_vs_helmet": -0.5355786085128784,
+      "cos_negative_presence_vs_helmet": 0.3288848102092743,
+      "negative_to_helmet_norm": 1.6726042032241821
+    },
+    {
+      "epoch": 4,
+      "batch": 2,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 2.297617720614653e-05,
+        "presence_negative": 0.0017682899488136172,
+        "helmet_conditional": 4.306563641875982e-05
+      },
+      "cos_presence_vs_helmet": 0.30335286259651184,
+      "cos_negative_presence_vs_helmet": 0.3016600012779236,
+      "negative_to_helmet_norm": 41.06034469604492
+    },
+    {
+      "epoch": 4,
+      "batch": 2,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 6.0651524108834565e-05,
+        "presence_negative": 0.0002045238361461088,
+        "helmet_conditional": 0.00014029149315319955
+      },
+      "cos_presence_vs_helmet": -0.09254483133554459,
+      "cos_negative_presence_vs_helmet": -0.13722766935825348,
+      "negative_to_helmet_norm": 1.457849144935608
+    },
+    {
+      "epoch": 4,
+      "batch": 3,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 0.0005199520965106785,
+        "presence_negative": 0.0,
+        "helmet_conditional": 0.00028172199381515384
+      },
+      "cos_presence_vs_helmet": 0.17947526276111603,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 4,
+      "batch": 3,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 0.0003801508864853531,
+        "presence_negative": 7.670807099202648e-05,
+        "helmet_conditional": 8.94262848305516e-05
+      },
+      "cos_presence_vs_helmet": -0.1525580883026123,
+      "cos_negative_presence_vs_helmet": 0.6526049375534058,
+      "negative_to_helmet_norm": 0.8577799201011658
+    },
+    {
+      "epoch": 4,
+      "batch": 3,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 6.242556992219761e-05,
+        "presence_negative": 0.0005016349605284631,
+        "helmet_conditional": 0.00015658036863896996
+      },
+      "cos_presence_vs_helmet": -0.03282757103443146,
+      "cos_negative_presence_vs_helmet": 0.01329270750284195,
+      "negative_to_helmet_norm": 3.2036900520324707
+    },
+    {
+      "epoch": 4,
+      "batch": 3,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 1.5714305845904164e-05,
+        "presence_negative": 0.0003183050430379808,
+        "helmet_conditional": 0.00010231945634586737
+      },
+      "cos_presence_vs_helmet": 0.7545883655548096,
+      "cos_negative_presence_vs_helmet": 0.7314522862434387,
+      "negative_to_helmet_norm": 3.1108946800231934
+    },
+    {
+      "epoch": 4,
+      "batch": 3,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 0.0001939478679560125,
+        "presence_negative": 0.00032393724541179836,
+        "helmet_conditional": 0.00010814112465595827
+      },
+      "cos_presence_vs_helmet": 0.7907716631889343,
+      "cos_negative_presence_vs_helmet": 0.6082596182823181,
+      "negative_to_helmet_norm": 2.99550461769104
+    },
+    {
+      "epoch": 4,
+      "batch": 4,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 0.0003488224756438285,
+        "presence_negative": 0.0,
+        "helmet_conditional": 0.0037822360172867775
+      },
+      "cos_presence_vs_helmet": -0.43148693442344666,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 4,
+      "batch": 4,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 0.2566017508506775,
+        "presence_negative": 0.07125558704137802,
+        "helmet_conditional": 0.0008855871856212616
+      },
+      "cos_presence_vs_helmet": 0.08405689150094986,
+      "cos_negative_presence_vs_helmet": -0.5298547744750977,
+      "negative_to_helmet_norm": 80.4614028930664
+    },
+    {
+      "epoch": 4,
+      "batch": 4,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 0.0006657717749476433,
+        "presence_negative": 0.0002496063825674355,
+        "helmet_conditional": 8.315317973028868e-05
+      },
+      "cos_presence_vs_helmet": 0.42050957679748535,
+      "cos_negative_presence_vs_helmet": -0.13347391784191132,
+      "negative_to_helmet_norm": 3.0017659664154053
+    },
+    {
+      "epoch": 4,
+      "batch": 4,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 0.0003501183819025755,
+        "presence_negative": 0.0001791237446013838,
+        "helmet_conditional": 0.00010479026968823746
+      },
+      "cos_presence_vs_helmet": -0.3907615840435028,
+      "cos_negative_presence_vs_helmet": 0.274257630109787,
+      "negative_to_helmet_norm": 1.7093547582626343
+    },
+    {
+      "epoch": 4,
+      "batch": 4,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 9.099181625060737e-05,
+        "presence_negative": 0.0002543535956647247,
+        "helmet_conditional": 0.0002152554807253182
+      },
+      "cos_presence_vs_helmet": 0.09457306563854218,
+      "cos_negative_presence_vs_helmet": 0.12299589067697525,
+      "negative_to_helmet_norm": 1.181635856628418
+    },
+    {
+      "epoch": 4,
+      "batch": 5,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 0.00046445144107565284,
+        "presence_negative": 0.0,
+        "helmet_conditional": 0.005404250230640173
+      },
+      "cos_presence_vs_helmet": 0.22574108839035034,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 4,
+      "batch": 5,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 0.05860581248998642,
+        "presence_negative": 7.422299677273259e-05,
+        "helmet_conditional": 0.00222599389962852
+      },
+      "cos_presence_vs_helmet": 0.43167567253112793,
+      "cos_negative_presence_vs_helmet": 0.3049716055393219,
+      "negative_to_helmet_norm": 0.03334375470876694
+    },
+    {
+      "epoch": 4,
+      "batch": 5,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 0.0009645206737332046,
+        "presence_negative": 0.005198508035391569,
+        "helmet_conditional": 0.0001452970172977075
+      },
+      "cos_presence_vs_helmet": 0.5309787392616272,
+      "cos_negative_presence_vs_helmet": 0.46899184584617615,
+      "negative_to_helmet_norm": 35.77849197387695
+    },
+    {
+      "epoch": 4,
+      "batch": 5,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 1.989877455343958e-05,
+        "presence_negative": 8.543715375708416e-05,
+        "helmet_conditional": 0.00012692988093476743
+      },
+      "cos_presence_vs_helmet": 0.6608160734176636,
+      "cos_negative_presence_vs_helmet": 0.5814846158027649,
+      "negative_to_helmet_norm": 0.6731051206588745
+    },
+    {
+      "epoch": 4,
+      "batch": 5,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 0.00016117107588797808,
+        "presence_negative": 0.0004534243780653924,
+        "helmet_conditional": 4.217003152007237e-05
+      },
+      "cos_presence_vs_helmet": 0.36515483260154724,
+      "cos_negative_presence_vs_helmet": 0.5106278657913208,
+      "negative_to_helmet_norm": 10.752288818359375
+    },
+    {
+      "epoch": 4,
+      "batch": 6,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 0.0003282279067207128,
+        "presence_negative": 0.0,
+        "helmet_conditional": 0.0014979132683947682
+      },
+      "cos_presence_vs_helmet": -0.05614085868000984,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 4,
+      "batch": 6,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 0.0027818172238767147,
+        "presence_negative": 0.00047595202340744436,
+        "helmet_conditional": 0.0006107815424911678
+      },
+      "cos_presence_vs_helmet": -0.1713847517967224,
+      "cos_negative_presence_vs_helmet": 0.6593908667564392,
+      "negative_to_helmet_norm": 0.7792508006095886
+    },
+    {
+      "epoch": 4,
+      "batch": 6,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 0.0002115503157256171,
+        "presence_negative": 0.0013257674872875214,
+        "helmet_conditional": 0.0001422745262971148
+      },
+      "cos_presence_vs_helmet": -0.6447465419769287,
+      "cos_negative_presence_vs_helmet": -0.6189512014389038,
+      "negative_to_helmet_norm": 9.318375587463379
+    },
+    {
+      "epoch": 4,
+      "batch": 6,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 5.960210182820447e-05,
+        "presence_negative": 0.0009497649734839797,
+        "helmet_conditional": 0.00017492854385636747
+      },
+      "cos_presence_vs_helmet": 0.8616211414337158,
+      "cos_negative_presence_vs_helmet": 0.8646877408027649,
+      "negative_to_helmet_norm": 5.429445266723633
+    },
+    {
+      "epoch": 4,
+      "batch": 6,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 0.001406693016178906,
+        "presence_negative": 0.0011102166026830673,
+        "helmet_conditional": 0.000851648801472038
+      },
+      "cos_presence_vs_helmet": -0.3006628453731537,
+      "cos_negative_presence_vs_helmet": -0.566250205039978,
+      "negative_to_helmet_norm": 1.3036085367202759
+    },
+    {
+      "epoch": 4,
+      "batch": 7,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 0.0004782330070156604,
+        "presence_negative": 0.0,
+        "helmet_conditional": 0.0003634799213614315
+      },
+      "cos_presence_vs_helmet": 0.42284268140792847,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 4,
+      "batch": 7,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 0.0020438069477677345,
+        "presence_negative": 0.00011370184802217409,
+        "helmet_conditional": 0.0005430499440990388
+      },
+      "cos_presence_vs_helmet": 0.4324493408203125,
+      "cos_negative_presence_vs_helmet": 0.3161657452583313,
+      "negative_to_helmet_norm": 0.20937640964984894
+    },
+    {
+      "epoch": 4,
+      "batch": 7,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 0.00022503358195535839,
+        "presence_negative": 0.0007163996924646199,
+        "helmet_conditional": 4.334947152528912e-05
+      },
+      "cos_presence_vs_helmet": 0.20224864780902863,
+      "cos_negative_presence_vs_helmet": 0.0763312578201294,
+      "negative_to_helmet_norm": 16.526145935058594
+    },
+    {
+      "epoch": 4,
+      "batch": 7,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 5.9158999647479504e-05,
+        "presence_negative": 0.0002632626856211573,
+        "helmet_conditional": 8.901355613488704e-05
+      },
+      "cos_presence_vs_helmet": 0.503424882888794,
+      "cos_negative_presence_vs_helmet": 0.5192056894302368,
+      "negative_to_helmet_norm": 2.957557201385498
+    },
+    {
+      "epoch": 4,
+      "batch": 7,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 0.00014151076902635396,
+        "presence_negative": 0.0003320185060147196,
+        "helmet_conditional": 0.00024205114459618926
+      },
+      "cos_presence_vs_helmet": -0.07069981843233109,
+      "cos_negative_presence_vs_helmet": 0.06879774481058121,
+      "negative_to_helmet_norm": 1.371687412261963
+    },
+    {
+      "epoch": 12,
+      "batch": 0,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 7.638759416295215e-05,
+        "presence_negative": 0.0,
+        "helmet_conditional": 2.313535696885083e-05
+      },
+      "cos_presence_vs_helmet": -0.6464685201644897,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 12,
+      "batch": 0,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 2.917540587077383e-05,
+        "presence_negative": 6.325554295472102e-06,
+        "helmet_conditional": 2.3084865460987203e-05
+      },
+      "cos_presence_vs_helmet": -0.5877192616462708,
+      "cos_negative_presence_vs_helmet": 0.42597052454948425,
+      "negative_to_helmet_norm": 0.27401304244995117
+    },
+    {
+      "epoch": 12,
+      "batch": 0,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 1.1437804460001644e-05,
+        "presence_negative": 5.9625959693221375e-05,
+        "helmet_conditional": 4.800986062036827e-05
+      },
+      "cos_presence_vs_helmet": -0.3749513328075409,
+      "cos_negative_presence_vs_helmet": -0.32496377825737,
+      "negative_to_helmet_norm": 1.2419524192810059
+    },
+    {
+      "epoch": 12,
+      "batch": 0,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 5.653154858009657e-06,
+        "presence_negative": 9.40863901632838e-06,
+        "helmet_conditional": 3.3781059755710885e-05
+      },
+      "cos_presence_vs_helmet": -0.09955218434333801,
+      "cos_negative_presence_vs_helmet": 0.3592070937156677,
+      "negative_to_helmet_norm": 0.2785181701183319
+    },
+    {
+      "epoch": 12,
+      "batch": 0,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 2.09975587495137e-05,
+        "presence_negative": 0.00026039936346933246,
+        "helmet_conditional": 9.79027827270329e-05
+      },
+      "cos_presence_vs_helmet": -0.6504698395729065,
+      "cos_negative_presence_vs_helmet": -0.6840820908546448,
+      "negative_to_helmet_norm": 2.6597747802734375
+    },
+    {
+      "epoch": 12,
+      "batch": 1,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 3.215281685697846e-05,
+        "presence_negative": 0.0,
+        "helmet_conditional": 4.017857645521872e-05
+      },
+      "cos_presence_vs_helmet": -0.763543963432312,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 12,
+      "batch": 1,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 6.943272182979854e-06,
+        "presence_negative": 2.5094330339925364e-05,
+        "helmet_conditional": 6.66164341964759e-05
+      },
+      "cos_presence_vs_helmet": -0.14653299748897552,
+      "cos_negative_presence_vs_helmet": -0.09727680683135986,
+      "negative_to_helmet_norm": 0.3766987919807434
+    },
+    {
+      "epoch": 12,
+      "batch": 1,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 1.3519976164388936e-05,
+        "presence_negative": 1.590786996530369e-05,
+        "helmet_conditional": 2.8872969778603874e-05
+      },
+      "cos_presence_vs_helmet": 0.040603939443826675,
+      "cos_negative_presence_vs_helmet": 0.3799237906932831,
+      "negative_to_helmet_norm": 0.5509606599807739
+    },
+    {
+      "epoch": 12,
+      "batch": 1,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 1.73078260559123e-05,
+        "presence_negative": 8.166245606844313e-06,
+        "helmet_conditional": 1.1520060979819391e-05
+      },
+      "cos_presence_vs_helmet": -0.8593438267707825,
+      "cos_negative_presence_vs_helmet": 0.2981988489627838,
+      "negative_to_helmet_norm": 0.7088717222213745
+    },
+    {
+      "epoch": 12,
+      "batch": 1,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 1.583683115313761e-05,
+        "presence_negative": 1.3359397598833311e-05,
+        "helmet_conditional": 8.290342520922422e-06
+      },
+      "cos_presence_vs_helmet": -0.609448254108429,
+      "cos_negative_presence_vs_helmet": -0.6781737804412842,
+      "negative_to_helmet_norm": 1.6114410161972046
+    },
+    {
+      "epoch": 12,
+      "batch": 2,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 6.127235974418e-05,
+        "presence_negative": 0.0,
+        "helmet_conditional": 3.9732494769850746e-05
+      },
+      "cos_presence_vs_helmet": -0.281273752450943,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 12,
+      "batch": 2,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 2.2072228603065014e-05,
+        "presence_negative": 5.992036676616408e-06,
+        "helmet_conditional": 4.4544922275235876e-05
+      },
+      "cos_presence_vs_helmet": -0.013460638001561165,
+      "cos_negative_presence_vs_helmet": 0.8422406315803528,
+      "negative_to_helmet_norm": 0.13451671600341797
+    },
+    {
+      "epoch": 12,
+      "batch": 2,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 4.841458212467842e-05,
+        "presence_negative": 2.2056350644561462e-05,
+        "helmet_conditional": 8.502094715368003e-05
+      },
+      "cos_presence_vs_helmet": 0.6825752258300781,
+      "cos_negative_presence_vs_helmet": 0.5091255307197571,
+      "negative_to_helmet_norm": 0.25942254066467285
+    },
+    {
+      "epoch": 12,
+      "batch": 2,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 8.509477993356995e-06,
+        "presence_negative": 1.1970585546805523e-05,
+        "helmet_conditional": 1.6369473087252118e-05
+      },
+      "cos_presence_vs_helmet": -0.2766527235507965,
+      "cos_negative_presence_vs_helmet": 0.37745657563209534,
+      "negative_to_helmet_norm": 0.7312749624252319
+    },
+    {
+      "epoch": 12,
+      "batch": 2,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 2.3505221179220825e-05,
+        "presence_negative": 1.9226436052122153e-05,
+        "helmet_conditional": 3.243799801566638e-05
+      },
+      "cos_presence_vs_helmet": -0.04280751943588257,
+      "cos_negative_presence_vs_helmet": -0.5829641819000244,
+      "negative_to_helmet_norm": 0.5927134156227112
+    },
+    {
+      "epoch": 12,
+      "batch": 3,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 5.696357038686983e-05,
+        "presence_negative": 0.0,
+        "helmet_conditional": 2.523031616874505e-05
+      },
+      "cos_presence_vs_helmet": -0.9484413266181946,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 12,
+      "batch": 3,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 3.963701965403743e-05,
+        "presence_negative": 3.158938488923013e-05,
+        "helmet_conditional": 9.312326255894732e-06
+      },
+      "cos_presence_vs_helmet": -0.5500248074531555,
+      "cos_negative_presence_vs_helmet": 0.1790902316570282,
+      "negative_to_helmet_norm": 3.3922119140625
+    },
+    {
+      "epoch": 12,
+      "batch": 3,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 1.2848482583649457e-05,
+        "presence_negative": 1.6317768313456327e-05,
+        "helmet_conditional": 7.759131403872743e-05
+      },
+      "cos_presence_vs_helmet": 0.3424912095069885,
+      "cos_negative_presence_vs_helmet": -0.1524205356836319,
+      "negative_to_helmet_norm": 0.21030406653881073
+    },
+    {
+      "epoch": 12,
+      "batch": 3,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 1.1154248568345793e-05,
+        "presence_negative": 5.076523393654497e-06,
+        "helmet_conditional": 2.1875825041206554e-05
+      },
+      "cos_presence_vs_helmet": -0.6893376111984253,
+      "cos_negative_presence_vs_helmet": 0.16029688715934753,
+      "negative_to_helmet_norm": 0.23206089437007904
+    },
+    {
+      "epoch": 12,
+      "batch": 3,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 2.395229421381373e-05,
+        "presence_negative": 3.206247492926195e-05,
+        "helmet_conditional": 6.4768260017444845e-06
+      },
+      "cos_presence_vs_helmet": 0.7833043336868286,
+      "cos_negative_presence_vs_helmet": 0.6910585165023804,
+      "negative_to_helmet_norm": 4.9503374099731445
+    },
+    {
+      "epoch": 12,
+      "batch": 4,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 4.201577030471526e-05,
+        "presence_negative": 0.0,
+        "helmet_conditional": 2.4499513529008254e-05
+      },
+      "cos_presence_vs_helmet": -0.753976583480835,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 12,
+      "batch": 4,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 7.670425839023665e-05,
+        "presence_negative": 2.9641485070897033e-06,
+        "helmet_conditional": 2.399573895672802e-05
+      },
+      "cos_presence_vs_helmet": -0.22191505134105682,
+      "cos_negative_presence_vs_helmet": 0.7566919326782227,
+      "negative_to_helmet_norm": 0.1235281229019165
+    },
+    {
+      "epoch": 12,
+      "batch": 4,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 7.512179581681266e-05,
+        "presence_negative": 1.523334958619671e-05,
+        "helmet_conditional": 1.2605550182342995e-05
+      },
+      "cos_presence_vs_helmet": 0.26914024353027344,
+      "cos_negative_presence_vs_helmet": -0.33819153904914856,
+      "negative_to_helmet_norm": 1.2084636688232422
+    },
+    {
+      "epoch": 12,
+      "batch": 4,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 2.7517477064975537e-05,
+        "presence_negative": 5.690541001968086e-06,
+        "helmet_conditional": 2.7315405532135628e-05
+      },
+      "cos_presence_vs_helmet": -0.6995883584022522,
+      "cos_negative_presence_vs_helmet": 0.4609532654285431,
+      "negative_to_helmet_norm": 0.20832715928554535
+    },
+    {
+      "epoch": 12,
+      "batch": 4,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 2.8395146728144027e-05,
+        "presence_negative": 3.177133112330921e-05,
+        "helmet_conditional": 1.3685083104064688e-05
+      },
+      "cos_presence_vs_helmet": -0.38815999031066895,
+      "cos_negative_presence_vs_helmet": -0.2078780233860016,
+      "negative_to_helmet_norm": 2.3216030597686768
+    },
+    {
+      "epoch": 12,
+      "batch": 5,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 7.452049612766132e-05,
+        "presence_negative": 0.0,
+        "helmet_conditional": 1.51887661559158e-05
+      },
+      "cos_presence_vs_helmet": -0.20338201522827148,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 12,
+      "batch": 5,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 3.255159026593901e-05,
+        "presence_negative": 3.7344223073887406e-06,
+        "helmet_conditional": 2.944706466223579e-05
+      },
+      "cos_presence_vs_helmet": -0.8538903594017029,
+      "cos_negative_presence_vs_helmet": 0.10191798955202103,
+      "negative_to_helmet_norm": 0.12681815028190613
+    },
+    {
+      "epoch": 12,
+      "batch": 5,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 1.2003227311652154e-05,
+        "presence_negative": 3.4839409636333585e-05,
+        "helmet_conditional": 1.5716594134573825e-05
+      },
+      "cos_presence_vs_helmet": 0.09036170691251755,
+      "cos_negative_presence_vs_helmet": 0.06857132166624069,
+      "negative_to_helmet_norm": 2.2167277336120605
+    },
+    {
+      "epoch": 12,
+      "batch": 5,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 7.310328328458127e-06,
+        "presence_negative": 4.845971034228569e-06,
+        "helmet_conditional": 2.1561332687269896e-05
+      },
+      "cos_presence_vs_helmet": -0.44162437319755554,
+      "cos_negative_presence_vs_helmet": 0.23083855211734772,
+      "negative_to_helmet_norm": 0.22475285828113556
+    },
+    {
+      "epoch": 12,
+      "batch": 5,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 8.371208423341159e-06,
+        "presence_negative": 5.150696597411297e-05,
+        "helmet_conditional": 2.0471134121180512e-05
+      },
+      "cos_presence_vs_helmet": 0.8124790191650391,
+      "cos_negative_presence_vs_helmet": 0.8343702554702759,
+      "negative_to_helmet_norm": 2.516077756881714
+    },
+    {
+      "epoch": 12,
+      "batch": 6,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 2.7738265998777933e-05,
+        "presence_negative": 0.0,
+        "helmet_conditional": 0.00027718229102902114
+      },
+      "cos_presence_vs_helmet": -0.23538674414157867,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 12,
+      "batch": 6,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 4.1314709960715845e-05,
+        "presence_negative": 3.012060551554896e-05,
+        "helmet_conditional": 0.00011465073475847021
+      },
+      "cos_presence_vs_helmet": 0.3544243574142456,
+      "cos_negative_presence_vs_helmet": 0.6149725914001465,
+      "negative_to_helmet_norm": 0.2627162039279938
+    },
+    {
+      "epoch": 12,
+      "batch": 6,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 1.7426484191673808e-05,
+        "presence_negative": 6.442135781981051e-05,
+        "helmet_conditional": 9.085883357329294e-05
+      },
+      "cos_presence_vs_helmet": -0.10820964723825455,
+      "cos_negative_presence_vs_helmet": -0.2846211791038513,
+      "negative_to_helmet_norm": 0.7090269327163696
+    },
+    {
+      "epoch": 12,
+      "batch": 6,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 9.131704246101435e-06,
+        "presence_negative": 7.042053766781464e-05,
+        "helmet_conditional": 2.7085829060524702e-05
+      },
+      "cos_presence_vs_helmet": 0.6182107925415039,
+      "cos_negative_presence_vs_helmet": 0.642228901386261,
+      "negative_to_helmet_norm": 2.5999033451080322
+    },
+    {
+      "epoch": 12,
+      "batch": 6,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 0.00010417646990390494,
+        "presence_negative": 4.2795338231371716e-05,
+        "helmet_conditional": 0.00018590671243146062
+      },
+      "cos_presence_vs_helmet": -0.23782753944396973,
+      "cos_negative_presence_vs_helmet": -0.2887622117996216,
+      "negative_to_helmet_norm": 0.23019792139530182
+    },
+    {
+      "epoch": 12,
+      "batch": 7,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 4.9068581574829295e-05,
+        "presence_negative": 0.0,
+        "helmet_conditional": 1.822881131374743e-05
+      },
+      "cos_presence_vs_helmet": -0.9107107520103455,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 12,
+      "batch": 7,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 0.00013471634883899242,
+        "presence_negative": 6.5347671807103325e-06,
+        "helmet_conditional": 2.6773072022479028e-05
+      },
+      "cos_presence_vs_helmet": -0.39300867915153503,
+      "cos_negative_presence_vs_helmet": 0.6197689175605774,
+      "negative_to_helmet_norm": 0.2440798431634903
+    },
+    {
+      "epoch": 12,
+      "batch": 7,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 2.531993595766835e-05,
+        "presence_negative": 2.3160413547884673e-05,
+        "helmet_conditional": 1.565956699778326e-05
+      },
+      "cos_presence_vs_helmet": 0.15997008979320526,
+      "cos_negative_presence_vs_helmet": 0.6524620056152344,
+      "negative_to_helmet_norm": 1.4789944887161255
+    },
+    {
+      "epoch": 12,
+      "batch": 7,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 1.585140489623882e-05,
+        "presence_negative": 5.461813088913914e-06,
+        "helmet_conditional": 3.302991171949543e-05
+      },
+      "cos_presence_vs_helmet": -0.7881925702095032,
+      "cos_negative_presence_vs_helmet": 0.38489457964897156,
+      "negative_to_helmet_norm": 0.16535960137844086
+    },
+    {
+      "epoch": 12,
+      "batch": 7,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 5.035082358517684e-05,
+        "presence_negative": 1.9036440789932385e-05,
+        "helmet_conditional": 0.00010606193245621398
+      },
+      "cos_presence_vs_helmet": -0.2425128072500229,
+      "cos_negative_presence_vs_helmet": 0.6329329609870911,
+      "negative_to_helmet_norm": 0.17948420345783234
+    },
+    {
+      "epoch": 24,
+      "batch": 0,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 1.1001065104210284e-05,
+        "presence_negative": 0.0,
+        "helmet_conditional": 3.0903893275535665e-06
+      },
+      "cos_presence_vs_helmet": -0.30977222323417664,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 24,
+      "batch": 0,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 1.159199200628791e-05,
+        "presence_negative": 1.3022001894569257e-06,
+        "helmet_conditional": 8.433778930339031e-06
+      },
+      "cos_presence_vs_helmet": 0.49564242362976074,
+      "cos_negative_presence_vs_helmet": -0.7570821046829224,
+      "negative_to_helmet_norm": 0.1544029265642166
+    },
+    {
+      "epoch": 24,
+      "batch": 0,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 6.281552032305626e-06,
+        "presence_negative": 5.794172011519549e-06,
+        "helmet_conditional": 9.87984094535932e-06
+      },
+      "cos_presence_vs_helmet": -0.5253603458404541,
+      "cos_negative_presence_vs_helmet": -0.2631176710128784,
+      "negative_to_helmet_norm": 0.5864641070365906
+    },
+    {
+      "epoch": 24,
+      "batch": 0,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 2.5242923129553674e-06,
+        "presence_negative": 1.084555265151721e-06,
+        "helmet_conditional": 3.411222223803634e-06
+      },
+      "cos_presence_vs_helmet": -0.7259752154350281,
+      "cos_negative_presence_vs_helmet": 0.17640098929405212,
+      "negative_to_helmet_norm": 0.317937433719635
+    },
+    {
+      "epoch": 24,
+      "batch": 0,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 4.887525847152574e-06,
+        "presence_negative": 5.8599045587470755e-05,
+        "helmet_conditional": 1.4366850336955395e-05
+      },
+      "cos_presence_vs_helmet": -0.7741662263870239,
+      "cos_negative_presence_vs_helmet": -0.7867017984390259,
+      "negative_to_helmet_norm": 4.078767776489258
+    },
+    {
+      "epoch": 24,
+      "batch": 1,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 4.944656666339142e-06,
+        "presence_negative": 0.0,
+        "helmet_conditional": 1.6660584151395597e-05
+      },
+      "cos_presence_vs_helmet": -0.055246707051992416,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 24,
+      "batch": 1,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 3.2533012017665897e-06,
+        "presence_negative": 2.462459860907984e-06,
+        "helmet_conditional": 8.035363862290978e-06
+      },
+      "cos_presence_vs_helmet": -0.15976294875144958,
+      "cos_negative_presence_vs_helmet": -0.26781123876571655,
+      "negative_to_helmet_norm": 0.30645281076431274
+    },
+    {
+      "epoch": 24,
+      "batch": 1,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 5.150028755451785e-06,
+        "presence_negative": 2.744844550761627e-06,
+        "helmet_conditional": 1.867874561867211e-05
+      },
+      "cos_presence_vs_helmet": -0.4220752716064453,
+      "cos_negative_presence_vs_helmet": -0.0036742747761309147,
+      "negative_to_helmet_norm": 0.1469501554965973
+    },
+    {
+      "epoch": 24,
+      "batch": 1,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 4.6569757614634e-06,
+        "presence_negative": 1.0302584314558771e-06,
+        "helmet_conditional": 5.236904598859837e-06
+      },
+      "cos_presence_vs_helmet": -0.648344099521637,
+      "cos_negative_presence_vs_helmet": 0.4461974799633026,
+      "negative_to_helmet_norm": 0.19673041999340057
+    },
+    {
+      "epoch": 24,
+      "batch": 1,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 1.8903890577348648e-06,
+        "presence_negative": 2.343055257369997e-06,
+        "helmet_conditional": 2.3932491330924677e-06
+      },
+      "cos_presence_vs_helmet": -0.35821443796157837,
+      "cos_negative_presence_vs_helmet": -0.22243548929691315,
+      "negative_to_helmet_norm": 0.9790269136428833
+    },
+    {
+      "epoch": 24,
+      "batch": 2,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 8.99328642844921e-06,
+        "presence_negative": 0.0,
+        "helmet_conditional": 7.67914934840519e-06
+      },
+      "cos_presence_vs_helmet": 0.11511930078268051,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 24,
+      "batch": 2,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 2.697176932997536e-05,
+        "presence_negative": 1.6226674688368803e-06,
+        "helmet_conditional": 1.108667584048817e-05
+      },
+      "cos_presence_vs_helmet": -0.23899972438812256,
+      "cos_negative_presence_vs_helmet": 0.7700088024139404,
+      "negative_to_helmet_norm": 0.14636194705963135
+    },
+    {
+      "epoch": 24,
+      "batch": 2,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 4.0562754293205217e-05,
+        "presence_negative": 3.5200209822505713e-06,
+        "helmet_conditional": 4.05640275857877e-05
+      },
+      "cos_presence_vs_helmet": 0.5545485615730286,
+      "cos_negative_presence_vs_helmet": 0.18787989020347595,
+      "negative_to_helmet_norm": 0.08677691221237183
+    },
+    {
+      "epoch": 24,
+      "batch": 2,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 1.8377381820755545e-06,
+        "presence_negative": 1.964720468095038e-06,
+        "helmet_conditional": 4.005683877039701e-06
+      },
+      "cos_presence_vs_helmet": -0.3107530176639557,
+      "cos_negative_presence_vs_helmet": 0.42075464129447937,
+      "negative_to_helmet_norm": 0.4904831647872925
+    },
+    {
+      "epoch": 24,
+      "batch": 2,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 1.7120848497143015e-05,
+        "presence_negative": 4.277622792869806e-06,
+        "helmet_conditional": 3.4663121368794236e-06
+      },
+      "cos_presence_vs_helmet": -0.008062206208705902,
+      "cos_negative_presence_vs_helmet": -0.34017476439476013,
+      "negative_to_helmet_norm": 1.2340558767318726
+    },
+    {
+      "epoch": 24,
+      "batch": 3,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 8.789102139417082e-06,
+        "presence_negative": 0.0,
+        "helmet_conditional": 2.693928308872273e-06
+      },
+      "cos_presence_vs_helmet": -0.8500544428825378,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 24,
+      "batch": 3,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 6.962584848224651e-06,
+        "presence_negative": 1.8486404087525443e-06,
+        "helmet_conditional": 3.807411758316448e-06
+      },
+      "cos_presence_vs_helmet": 0.3368319272994995,
+      "cos_negative_presence_vs_helmet": 0.4262467920780182,
+      "negative_to_helmet_norm": 0.4855372905731201
+    },
+    {
+      "epoch": 24,
+      "batch": 3,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 8.187495041056536e-06,
+        "presence_negative": 4.336039182817331e-06,
+        "helmet_conditional": 7.554580406576861e-06
+      },
+      "cos_presence_vs_helmet": 0.6429755687713623,
+      "cos_negative_presence_vs_helmet": -0.12609654664993286,
+      "negative_to_helmet_norm": 0.573961615562439
+    },
+    {
+      "epoch": 24,
+      "batch": 3,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 3.515522394081927e-06,
+        "presence_negative": 6.836341981397709e-07,
+        "helmet_conditional": 4.020229880552506e-06
+      },
+      "cos_presence_vs_helmet": -0.45779144763946533,
+      "cos_negative_presence_vs_helmet": 0.21223369240760803,
+      "negative_to_helmet_norm": 0.1700485348701477
+    },
+    {
+      "epoch": 24,
+      "batch": 3,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 2.05203491532302e-06,
+        "presence_negative": 5.713246537197847e-06,
+        "helmet_conditional": 1.2583450370584615e-06
+      },
+      "cos_presence_vs_helmet": -0.22627931833267212,
+      "cos_negative_presence_vs_helmet": -0.12672404944896698,
+      "negative_to_helmet_norm": 4.540286064147949
+    },
+    {
+      "epoch": 24,
+      "batch": 4,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 5.625278845400317e-06,
+        "presence_negative": 0.0,
+        "helmet_conditional": 5.50568711332744e-06
+      },
+      "cos_presence_vs_helmet": -0.4696516990661621,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 24,
+      "batch": 4,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 7.189204188762233e-05,
+        "presence_negative": 1.1263633723501698e-06,
+        "helmet_conditional": 6.160916200315114e-06
+      },
+      "cos_presence_vs_helmet": -0.5695116519927979,
+      "cos_negative_presence_vs_helmet": 0.8432608246803284,
+      "negative_to_helmet_norm": 0.1828240007162094
+    },
+    {
+      "epoch": 24,
+      "batch": 4,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 1.7498266970505938e-05,
+        "presence_negative": 2.9831787742296e-06,
+        "helmet_conditional": 3.137287194476812e-06
+      },
+      "cos_presence_vs_helmet": -0.12690718472003937,
+      "cos_negative_presence_vs_helmet": -0.523684561252594,
+      "negative_to_helmet_norm": 0.9508784413337708
+    },
+    {
+      "epoch": 24,
+      "batch": 4,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 8.104432708933018e-06,
+        "presence_negative": 7.635663905602996e-07,
+        "helmet_conditional": 1.0408856724097859e-05
+      },
+      "cos_presence_vs_helmet": -0.4545152187347412,
+      "cos_negative_presence_vs_helmet": 0.35421767830848694,
+      "negative_to_helmet_norm": 0.07335737347602844
+    },
+    {
+      "epoch": 24,
+      "batch": 4,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 1.0707152796385344e-05,
+        "presence_negative": 2.8488164389273152e-05,
+        "helmet_conditional": 2.721610144362785e-05
+      },
+      "cos_presence_vs_helmet": 0.36156147718429565,
+      "cos_negative_presence_vs_helmet": 0.38813355565071106,
+      "negative_to_helmet_norm": 1.0467393398284912
+    },
+    {
+      "epoch": 24,
+      "batch": 5,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 2.396865966147743e-05,
+        "presence_negative": 0.0,
+        "helmet_conditional": 1.551147761347238e-05
+      },
+      "cos_presence_vs_helmet": 0.7999750971794128,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 24,
+      "batch": 5,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 4.906800768367248e-06,
+        "presence_negative": 1.8827898884410388e-07,
+        "helmet_conditional": 8.72634154802654e-06
+      },
+      "cos_presence_vs_helmet": -0.6442239880561829,
+      "cos_negative_presence_vs_helmet": 0.22510243952274323,
+      "negative_to_helmet_norm": 0.021575937047600746
+    },
+    {
+      "epoch": 24,
+      "batch": 5,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 3.7850988974241773e-06,
+        "presence_negative": 1.5291181625798345e-05,
+        "helmet_conditional": 3.4544298159744358e-06
+      },
+      "cos_presence_vs_helmet": -0.032724373042583466,
+      "cos_negative_presence_vs_helmet": 0.07158243656158447,
+      "negative_to_helmet_norm": 4.42654275894165
+    },
+    {
+      "epoch": 24,
+      "batch": 5,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 1.200680117108277e-06,
+        "presence_negative": 1.104242869587324e-06,
+        "helmet_conditional": 7.563967301393859e-06
+      },
+      "cos_presence_vs_helmet": -0.03712698444724083,
+      "cos_negative_presence_vs_helmet": 0.3477272689342499,
+      "negative_to_helmet_norm": 0.14598725736141205
+    },
+    {
+      "epoch": 24,
+      "batch": 5,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 2.7434639378043357e-06,
+        "presence_negative": 1.1032097972929478e-05,
+        "helmet_conditional": 7.371849278570153e-06
+      },
+      "cos_presence_vs_helmet": 0.8209980130195618,
+      "cos_negative_presence_vs_helmet": 0.8583564162254333,
+      "negative_to_helmet_norm": 1.4965170621871948
+    },
+    {
+      "epoch": 24,
+      "batch": 6,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 6.496968126157299e-06,
+        "presence_negative": 0.0,
+        "helmet_conditional": 7.849748726584949e-06
+      },
+      "cos_presence_vs_helmet": -0.5088086128234863,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 24,
+      "batch": 6,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 1.4144126907922328e-05,
+        "presence_negative": 1.2264748875168152e-05,
+        "helmet_conditional": 9.391287676407956e-06
+      },
+      "cos_presence_vs_helmet": 0.48980388045310974,
+      "cos_negative_presence_vs_helmet": 0.12839391827583313,
+      "negative_to_helmet_norm": 1.3059709072113037
+    },
+    {
+      "epoch": 24,
+      "batch": 6,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 7.556490345450584e-06,
+        "presence_negative": 0.00020573769870679826,
+        "helmet_conditional": 9.74772592599038e-06
+      },
+      "cos_presence_vs_helmet": -0.05568695068359375,
+      "cos_negative_presence_vs_helmet": -0.07974972575902939,
+      "negative_to_helmet_norm": 21.106225967407227
+    },
+    {
+      "epoch": 24,
+      "batch": 6,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 1.6102917470561806e-06,
+        "presence_negative": 1.1019848898286e-05,
+        "helmet_conditional": 6.485902758868178e-06
+      },
+      "cos_presence_vs_helmet": 0.5595561265945435,
+      "cos_negative_presence_vs_helmet": 0.6129428148269653,
+      "negative_to_helmet_norm": 1.69904625415802
+    },
+    {
+      "epoch": 24,
+      "batch": 6,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 1.6542397133889608e-05,
+        "presence_negative": 2.30248951993417e-05,
+        "helmet_conditional": 0.0001388070231769234
+      },
+      "cos_presence_vs_helmet": 0.2173912227153778,
+      "cos_negative_presence_vs_helmet": 0.28459301590919495,
+      "negative_to_helmet_norm": 0.16587701439857483
+    },
+    {
+      "epoch": 24,
+      "batch": 7,
+      "role": "D",
+      "positive_samples": 32,
+      "norms": {
+        "presence_positive": 7.215935966087272e-06,
+        "presence_negative": 0.0,
+        "helmet_conditional": 3.6134765650785994e-06
+      },
+      "cos_presence_vs_helmet": -0.7041005492210388,
+      "cos_negative_presence_vs_helmet": null,
+      "negative_to_helmet_norm": 0.0
+    },
+    {
+      "epoch": 24,
+      "batch": 7,
+      "role": "P1",
+      "positive_samples": 27,
+      "norms": {
+        "presence_positive": 3.416900653974153e-05,
+        "presence_negative": 1.5635542922609602e-06,
+        "helmet_conditional": 1.3987166312290356e-05
+      },
+      "cos_presence_vs_helmet": 0.23852984607219696,
+      "cos_negative_presence_vs_helmet": 0.35029616951942444,
+      "negative_to_helmet_norm": 0.1117849200963974
+    },
+    {
+      "epoch": 24,
+      "batch": 7,
+      "role": "P2",
+      "positive_samples": 17,
+      "norms": {
+        "presence_positive": 8.566512406105176e-06,
+        "presence_negative": 5.059907380200457e-06,
+        "helmet_conditional": 4.17803812524653e-06
+      },
+      "cos_presence_vs_helmet": 0.5350181460380554,
+      "cos_negative_presence_vs_helmet": 0.3755916655063629,
+      "negative_to_helmet_norm": 1.211072564125061
+    },
+    {
+      "epoch": 24,
+      "batch": 7,
+      "role": "P3",
+      "positive_samples": 4,
+      "norms": {
+        "presence_positive": 3.6654384985013166e-06,
+        "presence_negative": 6.307655553428049e-07,
+        "helmet_conditional": 7.695122803852428e-06
+      },
+      "cos_presence_vs_helmet": -0.6356524229049683,
+      "cos_negative_presence_vs_helmet": 0.13553443551063538,
+      "negative_to_helmet_norm": 0.08196952193975449
+    },
+    {
+      "epoch": 24,
+      "batch": 7,
+      "role": "P0",
+      "positive_samples": 16,
+      "norms": {
+        "presence_positive": 5.831221187690971e-06,
+        "presence_negative": 3.181303782184841e-06,
+        "helmet_conditional": 4.822078699362464e-05
+      },
+      "cos_presence_vs_helmet": 0.1119159683585167,
+      "cos_negative_presence_vs_helmet": 0.6025852560997009,
+      "negative_to_helmet_norm": 0.06597369909286499
+    }
+  ],
+  "limitations": "Small diagnostic snapshots, fixed eval mode, not causal proof of training failure",
+  "status": "completed",
+  "summary": [
+    {
+      "epoch": 4,
+      "role": "D",
+      "batches": 8,
+      "cos_presence_vs_helmet": {
+        "mean": 0.08050676458515227,
+        "negative_fraction": 0.5,
+        "valid_batches": 8
+      },
+      "cos_negative_presence_vs_helmet": {
+        "mean": null,
+        "negative_fraction": null,
+        "valid_batches": 0
+      },
+      "negative_to_helmet_norm_median": 0.0
+    },
+    {
+      "epoch": 4,
+      "role": "P1",
+      "batches": 8,
+      "cos_presence_vs_helmet": {
+        "mean": -0.04364209156483412,
+        "negative_fraction": 0.5,
+        "valid_batches": 8
+      },
+      "cos_negative_presence_vs_helmet": {
+        "mean": 0.22559534013271332,
+        "negative_fraction": 0.25,
+        "valid_batches": 8
+      },
+      "negative_to_helmet_norm_median": 0.577820211648941
+    },
+    {
+      "epoch": 4,
+      "role": "P2",
+      "batches": 8,
+      "cos_presence_vs_helmet": {
+        "mean": 0.09243742004036903,
+        "negative_fraction": 0.375,
+        "valid_batches": 8
+      },
+      "cos_negative_presence_vs_helmet": {
+        "mean": 0.12047961074858904,
+        "negative_fraction": 0.25,
+        "valid_batches": 8
+      },
+      "negative_to_helmet_norm_median": 8.359055995941162
+    },
+    {
+      "epoch": 4,
+      "role": "P3",
+      "batches": 8,
+      "cos_presence_vs_helmet": {
+        "mean": 0.4178877957165241,
+        "negative_fraction": 0.125,
+        "valid_batches": 8
+      },
+      "cos_negative_presence_vs_helmet": {
+        "mean": 0.4844659809023142,
+        "negative_fraction": 0.0,
+        "valid_batches": 8
+      },
+      "negative_to_helmet_norm_median": 2.4499757885932922
+    },
+    {
+      "epoch": 4,
+      "role": "P0",
+      "batches": 8,
+      "cos_presence_vs_helmet": {
+        "mean": 0.18608793802559376,
+        "negative_fraction": 0.375,
+        "valid_batches": 8
+      },
+      "cos_negative_presence_vs_helmet": {
+        "mean": 0.17297359183430672,
+        "negative_fraction": 0.25,
+        "valid_batches": 8
+      },
+      "negative_to_helmet_norm_median": 1.7488183379173279
+    },
+    {
+      "epoch": 12,
+      "role": "D",
+      "batches": 8,
+      "cos_presence_vs_helmet": {
+        "mean": -0.5928979571908712,
+        "negative_fraction": 1.0,
+        "valid_batches": 8
+      },
+      "cos_negative_presence_vs_helmet": {
+        "mean": null,
+        "negative_fraction": null,
+        "valid_batches": 0
+      },
+      "negative_to_helmet_norm_median": 0.0
+    },
+    {
+      "epoch": 12,
+      "role": "P1",
+      "batches": 8,
+      "cos_presence_vs_helmet": {
+        "mean": -0.3015159296337515,
+        "negative_fraction": 0.875,
+        "valid_batches": 8
+      },
+      "cos_negative_presence_vs_helmet": {
+        "mean": 0.4304220015183091,
+        "negative_fraction": 0.125,
+        "valid_batches": 8
+      },
+      "negative_to_helmet_norm_median": 0.25339802354574203
+    },
+    {
+      "epoch": 12,
+      "role": "P2",
+      "batches": 8,
+      "cos_presence_vs_helmet": {
+        "mean": 0.13774767937138677,
+        "negative_fraction": 0.25,
+        "valid_batches": 8
+      },
+      "cos_negative_presence_vs_helmet": {
+        "mean": 0.06373570207506418,
+        "negative_fraction": 0.5,
+        "valid_batches": 8
+      },
+      "negative_to_helmet_norm_median": 0.9587453007698059
+    },
+    {
+      "epoch": 12,
+      "role": "P3",
+      "batches": 8,
+      "cos_presence_vs_helmet": {
+        "mean": -0.40451010689139366,
+        "negative_fraction": 0.875,
+        "valid_batches": 8
+      },
+      "cos_negative_presence_vs_helmet": {
+        "mean": 0.3642593380063772,
+        "negative_fraction": 0.0,
+        "valid_batches": 8
+      },
+      "negative_to_helmet_norm_median": 0.2552895322442055
+    },
+    {
+      "epoch": 12,
+      "role": "P0",
+      "batches": 8,
+      "cos_presence_vs_helmet": {
+        "mean": -0.07193032465875149,
+        "negative_fraction": 0.75,
+        "valid_batches": 8
+      },
+      "cos_negative_presence_vs_helmet": {
+        "mean": -0.03543731942772865,
+        "negative_fraction": 0.625,
+        "valid_batches": 8
+      },
+      "negative_to_helmet_norm_median": 1.9665220379829407
+    },
+    {
+      "epoch": 24,
+      "role": "D",
+      "batches": 8,
+      "cos_presence_vs_helmet": {
+        "mean": -0.2478174795396626,
+        "negative_fraction": 0.75,
+        "valid_batches": 8
+      },
+      "cos_negative_presence_vs_helmet": {
+        "mean": null,
+        "negative_fraction": null,
+        "valid_batches": 0
+      },
+      "negative_to_helmet_norm_median": 0.0
+    },
+    {
+      "epoch": 24,
+      "role": "P1",
+      "batches": 8,
+      "cos_presence_vs_helmet": {
+        "mean": -0.006461279466748238,
+        "negative_fraction": 0.5,
+        "valid_batches": 8
+      },
+      "cos_negative_presence_vs_helmet": {
+        "mean": 0.2148019503802061,
+        "negative_fraction": 0.25,
+        "valid_batches": 8
+      },
+      "negative_to_helmet_norm_median": 0.168613463640213
+    },
+    {
+      "epoch": 24,
+      "role": "P2",
+      "batches": 8,
+      "cos_presence_vs_helmet": {
+        "mean": 0.07122351881116629,
+        "negative_fraction": 0.625,
+        "valid_batches": 8
+      },
+      "cos_negative_presence_vs_helmet": {
+        "mean": -0.04515859839739278,
+        "negative_fraction": 0.625,
+        "valid_batches": 8
+      },
+      "negative_to_helmet_norm_median": 0.7686712741851807
+    },
+    {
+      "epoch": 24,
+      "role": "P3",
+      "batches": 8,
+      "cos_presence_vs_helmet": {
+        "mean": -0.3388252849690616,
+        "negative_fraction": 0.875,
+        "valid_batches": 8
+      },
+      "cos_negative_presence_vs_helmet": {
+        "mean": 0.33825112506747246,
+        "negative_fraction": 0.0,
+        "valid_batches": 8
+      },
+      "negative_to_helmet_norm_median": 0.18338947743177414
+    },
+    {
+      "epoch": 24,
+      "role": "P0",
+      "batches": 8,
+      "cos_presence_vs_helmet": {
+        "mean": 0.01814306154847145,
+        "negative_fraction": 0.5,
+        "valid_batches": 8
+      },
+      "cos_negative_presence_vs_helmet": {
+        "mean": 0.08220401778817177,
+        "negative_fraction": 0.5,
+        "valid_batches": 8
+      },
+      "negative_to_helmet_norm_median": 1.1403976082801819
+    }
+  ],
+  "finished_utc": "2026-10-28T08:12:16.731895+00:00",
+  "checkpoint_hashes": {
+    "4": "ea3aada6cc2640830853570b842ad15ae89c677c5ea6a7da4ee82dab49221dd6",
+    "12": "e4f67f02973b2e03246846105b80c6c9d33fa346fd4446eb4828ae04c5744bb0",
+    "24": "306a97ef63cf35342dc1665e265e7bbe458d9b4285b340cecac4d2b7c7a429ab"
+  }
+}

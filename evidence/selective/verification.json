@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "input_hashes": true,
+  "same_GT_order": true,
+  "clip_disjoint_fit_eval": true,
+  "exact_per_role_matched_coverage": true,
+  "unknown_separate_from_absent": true,
+  "candidate_partial_predictions_extendable": true,
+  "no_TEST": true,
+  "no_training_updates": true,
+  "result_sha256": "5af569b5936d7209b765f1b89c14c801a2f477b25a8f552534250c1ee30d4e32",
+  "decisions_sha256": "eab55a17678d007d3adc379f6539144ca15222283bcdec2fd2a8cdfe9d91dc7d"
+}

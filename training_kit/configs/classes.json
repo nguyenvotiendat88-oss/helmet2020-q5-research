@@ -1,0 +1,413 @@
+{
+  "source": "https://osf.io/download/8gtfs/; F-measure/36_class.csv",
+  "positions": [
+    "D",
+    "P1",
+    "P2",
+    "P3",
+    "P0"
+  ],
+  "state_names": [
+    "absent",
+    "helmet",
+    "no_helmet"
+  ],
+  "classes": [
+    {
+      "id": 0,
+      "name": "DNoHelmetP1NoHelmet",
+      "states": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1,
+      "name": "DHelmetP1Helmet",
+      "states": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 2,
+      "name": "DHelmet",
+      "states": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 3,
+      "name": "DNoHelmet",
+      "states": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 4,
+      "name": "DHelmetP1NoHelmet",
+      "states": [
+        1,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 5,
+      "name": "DHelmetP0NoHelmetP1NoHelmet",
+      "states": [
+        1,
+        2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "id": 6,
+      "name": "DHelmetP1NoHelmetP2NoHelmet",
+      "states": [
+        1,
+        2,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 7,
+      "name": "DNoHelmetP1NoHelmetP2NoHelmet",
+      "states": [
+        2,
+        2,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 8,
+      "name": "DHelmetP1NoHelmetP2Helmet",
+      "states": [
+        1,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 9,
+      "name": "DNoHelmetP1Helmet",
+      "states": [
+        2,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 10,
+      "name": "DHelmetP0NoHelmetP1NoHelmetP2Helmet",
+      "states": [
+        1,
+        2,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "id": 11,
+      "name": "DNoHelmetP0NoHelmetP1NoHelmet",
+      "states": [
+        2,
+        2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "id": 12,
+      "name": "DNoHelmetP0NoHelmet",
+      "states": [
+        2,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "id": 13,
+      "name": "DHelmetP0NoHelmet",
+      "states": [
+        1,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "id": 14,
+      "name": "DNoHelmetP1HelmetP2Helmet",
+      "states": [
+        2,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 15,
+      "name": "DHelmetP1HelmetP2Helmet",
+      "states": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 16,
+      "name": "DNoHelmetP0NoHelmetP1NoHelmetP2NoHelmet",
+      "states": [
+        2,
+        2,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "id": 17,
+      "name": "DHelmetP0NoHelmetP1NoHelmetP2NoHelmet",
+      "states": [
+        1,
+        2,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "id": 18,
+      "name": "DHelmetP0NoHelmetP1Helmet",
+      "states": [
+        1,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "id": 19,
+      "name": "DHelmetP1HelmetP2NoHelmet",
+      "states": [
+        1,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 20,
+      "name": "DNoHelmetP1NoHelmetP2NoHelmetP3NoHelmet",
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "id": 21,
+      "name": "DHelmetP0Helmet",
+      "states": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 22,
+      "name": "DNoHelmetP1NoHelmetP2Helmet",
+      "states": [
+        2,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 23,
+      "name": "DHelmetP0NoHelmetP1HelmetP2Helmet",
+      "states": [
+        1,
+        1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "id": 24,
+      "name": "DHelmetP1NoHelmetP2NoHelmetP3Helmet",
+      "states": [
+        1,
+        2,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "id": 25,
+      "name": "DHelmetP0HelmetP1Helmet",
+      "states": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 26,
+      "name": "DNoHelmetP0NoHelmetP1Helmet",
+      "states": [
+        2,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "id": 27,
+      "name": "DHelmetP1NoHelmetP2NoHelmetP3NoHelmet",
+      "states": [
+        1,
+        2,
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "id": 28,
+      "name": "DNoHelmetP0NoHelmetP1NoHelmetP2NoHelmetP3NoHelmet",
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "id": 29,
+      "name": "DHelmetP0HelmetP1NoHelmetP2Helmet",
+      "states": [
+        1,
+        2,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 30,
+      "name": "DHelmetP0HelmetP1NoHelmetP2NoHelmet",
+      "states": [
+        1,
+        2,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 31,
+      "name": "DNoHelmetP0HelmetP1NoHelmet",
+      "states": [
+        2,
+        2,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 32,
+      "name": "DHelmetP0HelmetP1HelmetP2Helmet",
+      "states": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 33,
+      "name": "DHelmetP0NoHelmetP1NoHelmetP2NoHelmetP3Helmet",
+      "states": [
+        1,
+        2,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 34,
+      "name": "DNoHelmetP0NoHelmetP1NoHelmetP2Helmet",
+      "states": [
+        2,
+        2,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "id": 35,
+      "name": "DHelmetP0NoHelmetP1NoHelmetP2NoHelmetP3NoHelmet",
+      "states": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ]
+}

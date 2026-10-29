@@ -1,0 +1,151 @@
+{
+  "checked_utc": "2026-10-29T08:22:10.471784+00:00",
+  "status": {
+    "status": "running",
+    "pid": 53631,
+    "updated_utc": "2026-10-29T08:12:50.349247+00:00",
+    "method": "GQ5_residual",
+    "epoch": 4,
+    "phase": "val"
+  },
+  "progress": {
+    "kind": "val_progress",
+    "time_utc": "2026-10-29T08:22:05.334407+00:00",
+    "method": "GQ5_residual",
+    "epoch": 4,
+    "completed_frames": 5750,
+    "total_frames": 14600,
+    "elapsed_seconds": 554.983806181699,
+    "phase": "val"
+  },
+  "verification": {
+    "status": "passed",
+    "dataset_training_started": false,
+    "test_accessed": false,
+    "checks": [
+      "candidate_gradient_and_single_backbone_tests",
+      "training_loop_unchanged_except_gate_diagnostic",
+      "native_module_not_modified",
+      "original_BCE_loss_exact",
+      "paired_baseline_hashes",
+      "bounded4epoch_plan",
+      "AdamW_zero_gate_wakes_queries",
+      "AdamW_resume_same_next_update",
+      "milestone_immutable",
+      "metrics_tamper_rejected"
+    ]
+  },
+  "sources": {
+    "fast_eval.py": "534879f3dd136b8cddd4ed00096ac817b02795fd911e6e0c426fcb624374fe7f",
+    "residual_candidate.py": "d31cf185a99e117f98087eaa2f0205bed74b4429eafff4e12141edeea8f3af45",
+    "residual_engine.py": "2783afc3f35f1c3078ce09bdeafd84fee7899a1b89093ec54f492233291a0247",
+    "run_residual_pilot.py": "1c056eb5055a523cabd63756299f446c3acd799b3c137832d0fd26d69f8b8cef",
+    "test_candidate.py": "f205e88bd46b566f17d871ae3d89dde1b69acc26da8a26a3ca6517357da5d45a",
+    "test_residual_run.py": "0a8cea61c08a1c7b931a49bab5c74ab3c5cc428071e6a0dd0da5bef028c79745"
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "samples": 181176,
+      "train_loss": 0.1329678354574541,
+      "train_seconds": 357.09992587938905,
+      "data_wait_seconds": 213.8307287544012,
+      "compute_seconds": 112.15249954164028,
+      "label_order_sha256": "b3927b45bce06987f03520d82b60a2349f4adbd5134d5e232016df6d8685ff94",
+      "next_lr": 9.829629131445342e-05,
+      "peak_cuda_bytes": 5947234816,
+      "residual_role_scales": [
+        0.027555879205465317,
+        -0.00031545813544653356,
+        -0.024790307506918907,
+        -0.02712009847164154,
+        0.02278326079249382
+      ]
+    },
+    {
+      "epoch": 2,
+      "samples": 181176,
+      "train_loss": 0.02964156948822197,
+      "train_seconds": 356.62663782015443,
+      "data_wait_seconds": 212.88449618965387,
+      "compute_seconds": 111.14423291757703,
+      "label_order_sha256": "57d9aa4d55ce2643296d13462d92c31a30fdc73b240f863d96ae8ab9b93ea2fe",
+      "next_lr": 9.330127018922195e-05,
+      "peak_cuda_bytes": 5947234816,
+      "residual_role_scales": [
+        0.04713243246078491,
+        0.004030849318951368,
+        -0.04561381787061691,
+        -0.042716190218925476,
+        0.04374101012945175
+      ]
+    },
+    {
+      "epoch": 3,
+      "samples": 181176,
+      "train_loss": 0.012548758383624342,
+      "train_seconds": 359.83946330472827,
+      "data_wait_seconds": 216.1851796284318,
+      "compute_seconds": 110.38772427290678,
+      "label_order_sha256": "c5ea0ebb754be13f9993cb8244f53bb63525021f544bd2c797fd39efaebb6efd",
+      "next_lr": 8.535533905932738e-05,
+      "peak_cuda_bytes": 5947234816,
+      "residual_role_scales": [
+        0.06745394319295883,
+        0.013670925982296467,
+        -0.06251451373100281,
+        -0.055734340101480484,
+        0.060808297246694565
+      ]
+    },
+    {
+      "epoch": 4,
+      "samples": 181176,
+      "train_loss": 0.007223674261401075,
+      "train_seconds": 356.62933333590627,
+      "data_wait_seconds": 214.35785857960582,
+      "compute_seconds": 110.9660778157413,
+      "label_order_sha256": "a03e978579f85d969145d734cf8a38e8a22d1d10a9ebb68c01e7d86d3b2dddf6",
+      "next_lr": 7.500000000000001e-05,
+      "peak_cuda_bytes": 5947234816,
+      "residual_role_scales": [
+        0.08165904879570007,
+        0.023157289251685143,
+        -0.07509294152259827,
+        -0.06643915921449661,
+        0.07341007143259048
+      ]
+    }
+  ],
+  "architecture": {
+    "architecture": {
+      "formula": "G_logits + repeat_native(tanh(role_scale))*Q5_logits",
+      "gate_initialization": 0.0,
+      "trainable_role_gates": 5,
+      "global_path_initialization": "exact paired G",
+      "query_path_initialization": "exact paired Q5",
+      "prior_art": "Global/spatial residual attention; CSRA ICCV2021",
+      "does_not_guarantee_test_noninferiority": true,
+      "variant": "GQ5_residual",
+      "backbone_count": 1,
+      "head_parameters": 205209,
+      "total_parameters": 11381721,
+      "native_output_order": [
+        "presence_D",
+        "presence_P1",
+        "presence_P2",
+        "presence_P3",
+        "presence_P0",
+        "helmet_D",
+        "helmet_P1",
+        "helmet_P2",
+        "helmet_P3",
+        "helmet_P0"
+      ],
+      "not_original_Q5": true,
+      "new_method_validated": false
+    },
+    "initial_model_sha256": "153c79bf6acff37bd69df123e662872036488abc258b952679c1b02135e994eb",
+    "initial_backbone_sha256": "f5d134da30e02282b812f919c60132fd325ad294e08ddf3dbd12b38f07ff7ce8"
+  }
+}

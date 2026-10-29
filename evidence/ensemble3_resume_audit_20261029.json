@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-29",
+  "old_run": "/workspace/runs/ensemble3_20261029",
+  "old_failure": "Original seed0 inference no longer matches",
+  "observed_failure_utc": "2026-10-29T10:21:39+00:00",
+  "diagnosis": "On identical3frames,Q5 requires_grad=False changed scores by at most9.313225746154785e-10; True matched saved outputs exactly; boxes/order unchanged on probe.",
+  "fix": "Preserve original Q5 parameter flags; forward stays inside inference_mode; no optimizer or updates.",
+  "new_run": "/workspace/runs/ensemble3_resume_20261029",
+  "G_reuse": "Completed G cache/calibration/evaluation hashes and recipe checked; source unchanged.",
+  "checkpoint_mutations": false,
+  "TEST_accessed": false,
+  "implementation_sha256": {
+    "posthoc_core.py": "ab5a1f88a3e5b4f83d565f8c973e1ca951836ec1cf9caf799dfd416699a9d971",
+    "run_ensemble.py": "b9316d6a91c46db0df8a666a17a9a032683d300ce47212f584a07556c16e2bfe",
+    "test_ensemble.py": "3afc1990a33620b31855bc00c41572bc1229faec5119ace2080296e0373efdd6",
+    "test_fix.py": "fb7e8f13913ba20a3738bb352e8347a2173a2669f16b538100f67887d5eec46c",
+    "fast_eval.py": "534879f3dd136b8cddd4ed00096ac817b02795fd911e6e0c426fcb624374fe7f",
+    "reuse_g.py": "a638791d5098d685e2f81efd2e2a78883025a04e11428a39d2157b29977549ee"
+  }
+}

@@ -1,0 +1,29 @@
+# Secrets / local state
+.env
+.env.*
+*.pem
+*.key
+*id_ed25519*
+.ssh/
+.venv*/
+__pycache__/
+*.pyc
+.DS_Store
+# Data / model artifacts are deliberately excluded
+datasets/
+helmet_images/
+pretrained/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npz
+*.npy
+*.tar
+*.zip
+*.log
+# Do not commit machine-local full image manifests
+training_kit/manifests/train.jsonl
+training_kit/manifests/val.jsonl
+training_kit/manifests/test.jsonl

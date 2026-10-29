@@ -1,0 +1,78 @@
+{
+  "queue": {
+    "state": "waiting_for_full_VAL",
+    "pid": 43240,
+    "updated_utc": "2026-10-28T08:51:08.171990+00:00",
+    "dependency": {
+      "pid": 42415,
+      "time_utc": "2026-10-28T08:51:06.055560+00:00",
+      "state": "running",
+      "arm": "Q5",
+      "phase": "inference",
+      "frames": 9000,
+      "total": 14600,
+      "elapsed_seconds": 2025.0283874757588
+    },
+    "next": "objective_pilot_then_seed1_seed2"
+  },
+  "activation": {
+    "previous_queue": {
+      "state": "waiting_for_full_VAL",
+      "pid": 42774,
+      "updated_utc": "2026-10-28T08:49:54.417361+00:00",
+      "dependency": {
+        "pid": 42415,
+        "time_utc": "2026-10-28T08:49:37.747496+00:00",
+        "state": "running",
+        "arm": "Q5",
+        "phase": "inference",
+        "frames": 8500,
+        "total": 14600,
+        "elapsed_seconds": 1936.7203234620392
+      },
+      "queued_seeds": [
+        1,
+        2
+      ],
+      "arms": [
+        "G",
+        "Q5"
+      ]
+    },
+    "previous_waiting_pid": 42774,
+    "active_training_interrupted": false,
+    "time_utc": "2026-10-28T08:50:08.125537+00:00",
+    "new_order": [
+      "finish_current_full_VAL",
+      "four_objective_pilot_fits",
+      "G_Q5_seed1",
+      "G_Q5_seed2"
+    ],
+    "reason": "User prioritized testable research contribution; preserve previous results and resume planned seed replication"
+  },
+  "verification": {
+    "status": "passed",
+    "training_started": false,
+    "test_accessed": false,
+    "checks": [
+      "conditional_objective_mathematics_and_gradcheck",
+      "native_loss_not_monkeypatched",
+      "paired_historical_initialization_matches",
+      "historical_control_hashes_verified",
+      "training_and_evaluation_AST_same_except_seed_stop_epoch",
+      "four_epoch_cosine12_prefix_frozen",
+      "finite_G_Q5_gradients_for_both_objectives"
+    ]
+  },
+  "sources": {
+    "PLAN_VI.md": "8a8424a9519c241db270794d4b24fa2190d3490f15ee6937615ffcf2184cf9f2",
+    "check_valid_state_objective.py": "65024ae26dcabb6dc9e2b0e9b8f77894d347de1b275130b5657b02ae1f2342fa",
+    "fast_eval.py": "534879f3dd136b8cddd4ed00096ac817b02795fd911e6e0c426fcb624374fe7f",
+    "pilot_engine.py": "2a5b7c195a97ab2d0ec48e4f5ce8350815650817b19aa298277c42edcb0871e2",
+    "research_queue.py": "5313ee66d6d859902f3f3947ccb1680b82c618713081f917aa38082e31d1429b",
+    "run_pilot.py": "6e1e217902dc65e199ca2adc9d1c4702543cd8842c53ff1596a111abc9f1401c",
+    "test_pilot.py": "2ee11fae03852a3eab32278984ec301fc74dc77aeb7bcd7be38d3a97524319d7",
+    "valid_state_objective.py": "629b3929495b864eb6163269bd57ddca3b169cb3f412371c8793b0f39bd0e9a5",
+    "activate_queue.py": "0089eef8bfbdc76d8920aa2078f3bc213b1bdb13ca535a2501930b32bfec61a6"
+  }
+}

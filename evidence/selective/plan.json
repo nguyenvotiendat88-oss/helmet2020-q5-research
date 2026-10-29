@@ -1,0 +1,85 @@
+{
+  "schema": "helmet2020.selective_role_pilot.v1",
+  "seed": 0,
+  "epoch": 24,
+  "created_utc": "2026-10-29T03:47:07.077226+00:00",
+  "methods": [
+    "crop_confidence",
+    "native_role_confidence",
+    "role_marginal",
+    "topclass_role_marginal",
+    "set_consensus"
+  ],
+  "primary_coverage": 0.7,
+  "secondary_coverages": [
+    0.5,
+    0.9
+  ],
+  "candidate": "set_consensus",
+  "bootstrap_repetitions": 1000,
+  "bootstrap_seed": 20261029,
+  "temperature_by_model": {
+    "G": 2.904192186780827,
+    "Q5": 3.2036922912231174
+  },
+  "sample_counts": {
+    "calibration": 1398,
+    "evaluation": 2698
+  },
+  "clip_counts": {
+    "calibration": 52,
+    "evaluation": 93
+  },
+  "input_meta": {
+    "schema": "helmet2020.selective_inputs.v1",
+    "scope": "cached_seed0_epoch24_GT_crop_logits",
+    "test_accessed": false,
+    "remote_mutations": false,
+    "val_manifest_sha256": "40f98a44aa944e57277f8b60bc397d0db35164dedae31d8f8697e34c8f524c8b",
+    "files": {
+      "G_val_gt_logits.npz": {
+        "sha256": "937b1ba02d0da068d01090fe264b90d6eb12f02db9d5a5b0340fc2a056294068",
+        "bytes": 201342
+      },
+      "Q5_val_gt_logits.npz": {
+        "sha256": "aee53e42eebbe093a0fb510f65282660806c9069976d8df5bba214c443f72645",
+        "bytes": 200486
+      },
+      "samples.json": {
+        "sha256": "e2966bdecaccd26d0b33f667d5d14280ea3cd4e01e67aa9beddd4fedfd7b7336",
+        "bytes": 123864
+      },
+      "calibration.json": {
+        "sha256": "0bc496868473a55f8d0bd70e28edd7e89aecaf217a7e4d869ac68691c34fd3a6",
+        "bytes": 486
+      },
+      "classes.json": {
+        "sha256": "d0560a66226362c6cd3ad2fa03853db54a7b9b6d4c552f5ab1fea1114e4e9ca4",
+        "bytes": 5798
+      }
+    },
+    "checkpoints": {
+      "G": "e01d5147576e83775dbfdb122de4320c499cfe11ca2959209ed61923e451a32e",
+      "Q5": "306a97ef63cf35342dc1665e265e7bbe458d9b4285b340cecac4d2b7c7a429ab"
+    }
+  },
+  "code_hashes": {
+    "selective_core.py": "85062ccaf88b0774a7a78b213a0e113478db1039e7dc429925e84ab3c4bcbd66",
+    "run_pilot.py": "63cce467cd5ea5aaafd6b93deaa02dfae2d3c0ba309b10a9b822cfb0b081a328",
+    "test_selective.py": "f43a7a3bb2c5ab264c98331b0325090336fe28385b097d13b90580e973fb2b68"
+  },
+  "plan_sha256": "78c81b272b5e54bc53e576f5599d7e5ea90bf23f1a2b23c9818ddcb14fc3b092",
+  "test_accessed": false,
+  "GPU_used": false,
+  "training_updates": 0,
+  "dataset_scope": "GT_crop_development_subset",
+  "prior_VAL_seen": true,
+  "conformal_guarantee_claimed": false,
+  "numeric_policy": "float64 analysis sigmoid, class distributions keep original1e-12 state-probability floor; same for all policies",
+  "gate": {
+    "risk_improvement_pp_vs_every_baseline": 1.0,
+    "max_GT_present_risk_increase_pp": 1.0,
+    "paired_clip_CI95_upper_below_zero": true
+  },
+  "followup": "report_all_results_no_auto_refinement"
+}

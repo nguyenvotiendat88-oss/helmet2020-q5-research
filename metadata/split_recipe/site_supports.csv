@@ -1,0 +1,13 @@
+site_id,val_clip_quota,train_clips,train_frames,train_objects,val_clips,val_frames,val_objects
+Bago_highway,6,22,2200,6356,6,600,998
+Bago_rural,9,38,3800,3409,9,900,694
+Bago_urban,10,40,4000,10063,10,1000,2665
+Mandalay_1,37,145,14500,53026,37,3700,12430
+Mandalay_2,25,102,10200,44865,25,2500,13831
+Naypyitaw_1,8,33,3300,4855,8,800,1014
+Naypyitaw_2,7,27,2700,5315,7,700,1373
+NyaungU_rural,13,52,5200,6570,13,1300,1467
+NyaungU_urban,11,43,4300,16539,11,1100,5352
+Pakokku_urban,12,48,4800,22209,12,1200,5622
+Pathein_rural,2,7,700,1071,2,200,396
+Yangon_II,6,25,2500,6898,6,600,1830
